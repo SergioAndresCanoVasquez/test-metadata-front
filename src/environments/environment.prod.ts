@@ -1,3 +1,6 @@
 export const environment = {
-  production: true
+  production: true,
+  host: 'https://tpmetadataback.azurewebsites.net',
+  port: "80",
+  api : '/api/MetaData'
 };

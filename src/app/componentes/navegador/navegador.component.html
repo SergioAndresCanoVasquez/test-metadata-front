@@ -1,0 +1,6 @@
+<ul class="nav nav-tabs justify-content-center">
+  <li class="nav-item" *ngFor="let pagina of paginas; let i = index;">
+    <a [ngClass]="{'active': i == 0}" class="nav-link" (click)="paginaMostrar($event)" [name]="i" href="#">{{pagina.nombre}}</a>
+  </li>
+</ul>
+

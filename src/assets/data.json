@@ -1,0 +1,229 @@
+{
+  "agente": {
+    "id": "8125111",
+    "puntos": 1000000,
+    "posicion": 1,
+    "listaClientes": [
+      {
+        "client": "SABMiller",
+        "listaClientesInternos": [
+          {
+            "nombre": "Tienda-Luz Hidalgo",
+            "codigoCliente": 1885,
+            "administrador": "Hidalgo Chamber, Lebida Luz",
+            "cargo": "",
+            "ciudad": "",
+            "listaPaginas": [
+              {
+                "id": 21,
+                "nombre": "Home",
+                "icono": "",
+                "listaSecciones": [
+                  {
+                    "id": 32,
+                    "titulo": "Indicadores del cliente",
+                    "expandido": false,
+                    "listaWidgets": [
+                      {
+                        "tipo": "meta",
+                        "lista": [
+                          {
+                            "Titulo": "CERVEZA 1",
+                            "Color_titulo": "255, 0, 0",
+                            "Valor_Enfasis": "140",
+                            "Color_Valor_Enfasis": "#ff0000",
+                            "Descripcion_1": "Meta: 18",
+                            "Color_descripcion_1": "255, 0, 0",
+                            "Descripcion_2": "Cump: 77%",
+                            "Color_descripcion_2": "255, 0, 0",
+                            "Descripcion_3": "Mes Ant: 180",
+                            "Color_descripcion_3": "255, 0, 0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 22,
+                "nombre": "Datos del cliente",
+                "icono": "",
+                "listaSecciones": [
+                  {
+                    "id": 33,
+                    "titulo": "Indicadores del cliente",
+                    "expandido": false,
+                    "listaWidgets": [
+                      {
+                        "tipo": "meta",
+                        "lista": [
+                          {
+                            "Titulo": "CERVEZA 2",
+                            "Color_titulo": "255, 0, 0",
+                            "Valor_Enfasis": "140",
+                            "Color_Valor_Enfasis": "#ff0000",
+                            "Descripcion_1": "Meta: 18",
+                            "Color_descripcion_1": "255, 0, 0",
+                            "Descripcion_2": "Cump: 77%",
+                            "Color_descripcion_2": "255, 0, 0",
+                            "Descripcion_3": "Mes Ant: 180",
+                            "Color_descripcion_3": "255, 0, 0"
+                          },
+                          {
+                            "Titulo": "CERVEZA 3",
+                            "Color_titulo": "255, 0, 0",
+                            "Valor_Enfasis": "140",
+                            "Color_Valor_Enfasis": "#ff0000",
+                            "Descripcion_1": "Meta: 18",
+                            "Color_descripcion_1": "255, 0, 0",
+                            "Descripcion_2": "Cump: 77%",
+                            "Color_descripcion_2": "255, 0, 0",
+                            "Descripcion_3": "Mes Ant: 180",
+                            "Color_descripcion_3": "255, 0, 0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 34,
+                    "titulo": "Indicadores del COT",
+                    "expandido": false,
+                    "listaWidgets": [
+                      {
+                        "tipo": "meta",
+                        "lista": [
+                          {
+                            "Titulo": "CERVEZA 4",
+                            "Color_titulo": "255, 0, 0",
+                            "Valor_Enfasis": "140",
+                            "Color_Valor_Enfasis": "#ff0000",
+                            "Descripcion_1": "Meta: 18",
+                            "Color_descripcion_1": "255, 0, 0",
+                            "Descripcion_2": "Cump: 77%",
+                            "Color_descripcion_2": "255, 0, 0",
+                            "Descripcion_3": "Mes Ant: 180",
+                            "Color_descripcion_3": "255, 0, 0"
+                          },
+                          {
+                            "Titulo": "CERVEZA 5",
+                            "Color_titulo": "255, 0, 0",
+                            "Valor_Enfasis": "140",
+                            "Color_Valor_Enfasis": "#ff0000",
+                            "Descripcion_1": "Meta: 18",
+                            "Color_descripcion_1": "255, 0, 0",
+                            "Descripcion_2": "Cump: 77%",
+                            "Color_descripcion_2": "255, 0, 0",
+                            "Descripcion_3": "Mes Ant: 180",
+                            "Color_descripcion_3": "255, 0, 0"
+                          },
+                          {
+                            "Titulo": "CERVEZA 6",
+                            "Color_titulo": "255, 0, 0",
+                            "Valor_Enfasis": "140",
+                            "Color_Valor_Enfasis": "#ff0000",
+                            "Descripcion_1": "Meta: 18",
+                            "Color_descripcion_1": "255, 0, 0",
+                            "Descripcion_2": "Cump: 77%",
+                            "Color_descripcion_2": "255, 0, 0",
+                            "Descripcion_3": "Mes Ant: 180",
+                            "Color_descripcion_3": "255, 0, 0"
+                          },
+                          {
+                            "Titulo": "CERVEZA 7",
+                            "Color_titulo": "255, 0, 0",
+                            "Valor_Enfasis": "140",
+                            "Color_Valor_Enfasis": "#ff0000",
+                            "Descripcion_1": "Meta: 18",
+                            "Color_descripcion_1": "255, 0, 0",
+                            "Descripcion_2": "Cump: 77%",
+                            "Color_descripcion_2": "255, 0, 0",
+                            "Descripcion_3": "Mes Ant: 180",
+                            "Color_descripcion_3": "255, 0, 0"
+                          },
+                          {
+                            "Titulo": "CERVEZA 8",
+                            "Color_titulo": "255, 0, 0",
+                            "Valor_Enfasis": "140",
+                            "Color_Valor_Enfasis": "#ff0000",
+                            "Descripcion_1": "Meta: 18",
+                            "Color_descripcion_1": "255, 0, 0",
+                            "Descripcion_2": "Cump: 77%",
+                            "Color_descripcion_2": "255, 0, 0",
+                            "Descripcion_3": "Mes Ant: 180",
+                            "Color_descripcion_3": "255, 0, 0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 35,
+                    "titulo": "Indicadores del COT NO CLIENTE",
+                    "expandido": false,
+                    "listaWidgets": [
+                      {
+                        "tipo": "meta",
+                        "lista": [
+                          {
+                            "Titulo": "CERVEZA 12",
+                            "Color_titulo": "255, 0, 0",
+                            "Valor_Enfasis": "140",
+                            "Color_Valor_Enfasis": "#ff0000",
+                            "Descripcion_1": "Meta: 18",
+                            "Color_descripcion_1": "255, 0, 0",
+                            "Descripcion_2": "Cump: 77%",
+                            "Color_descripcion_2": "255, 0, 0",
+                            "Descripcion_3": "Mes Ant: 180",
+                            "Color_descripcion_3": "255, 0, 0"
+                          },
+                          {
+                            "Titulo": "CERVEZA 13",
+                            "Color_titulo": "255, 0, 0",
+                            "Valor_Enfasis": "140",
+                            "Color_Valor_Enfasis": "#ff0000",
+                            "Descripcion_1": "Meta: 18",
+                            "Color_descripcion_1": "255, 0, 0",
+                            "Descripcion_2": "Cump: 77%",
+                            "Color_descripcion_2": "255, 0, 0",
+                            "Descripcion_3": "Mes Ant: 180",
+                            "Color_descripcion_3": "255, 0, 0"
+                          },
+                          {
+                            "Titulo": "CERVEZA 14",
+                            "Color_titulo": "255, 0, 0",
+                            "Valor_Enfasis": "140",
+                            "Color_Valor_Enfasis": "#ff0000",
+                            "Descripcion_1": "Meta: 18",
+                            "Color_descripcion_1": "255, 0, 0",
+                            "Descripcion_2": "Cump: 77%",
+                            "Color_descripcion_2": "255, 0, 0",
+                            "Descripcion_3": "Mes Ant: 180",
+                            "Color_descripcion_3": "255, 0, 0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 36,
+                    "titulo": "Indicadores del COT NO AGENTE",
+                    "expandido": false,
+                    "listaWidgets": []
+                  },
+                  {
+                    "id": 37,
+                    "titulo": "Indicadores del COT NO",
+                    "expandido": false,
+                    "listaWidgets": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
