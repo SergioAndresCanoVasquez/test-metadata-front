@@ -14,11 +14,12 @@ export class PaginaComponent implements OnInit {
   @Input()
   public activa: boolean;
 
+  @Input()
+  public numeroPagina: number;
 
   constructor() { }
 
   ngOnInit() {
-    console.log(this.pagina);
   }
 
 }

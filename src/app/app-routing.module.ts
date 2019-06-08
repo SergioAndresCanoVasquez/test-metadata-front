@@ -4,7 +4,8 @@ import { ContenedorPrincipalComponent } from './componentes/contenedor-principal
 
 const routes: Routes = [
   {path: '', component: ContenedorPrincipalComponent},
-  {path: 'main', component: ContenedorPrincipalComponent}
+  {path: 'metadata', component: ContenedorPrincipalComponent},
+  {path: '**',redirectTo:'metadata'}
 ];
 
 @NgModule({

@@ -9,6 +9,7 @@ export class NavegadorComponent implements OnInit {
 
   public data: Data;
   public paginas: ListaPagina[];
+  public botonesPagina: HTMLCollection;
 
   @Output() mostrarPagina = new EventEmitter<number>();
 
@@ -18,10 +19,19 @@ export class NavegadorComponent implements OnInit {
   }
 
   ngOnInit() {
+
   }
 
-  paginaMostrar(event:any){
+  paginaMostrar(event: any) {
     this.mostrarPagina.emit(parseInt(event.target.name));
+    this.botonesPagina = document.getElementsByClassName('nav-link');
+    Array.prototype.forEach.call(this.botonesPagina, function (tag) {
+      if (tag.name === event.target.name) {
+        tag.className = 'nav-link active'
+      } else {
+        tag.className = 'nav-link'
+      }
+    });
   }
 
 }

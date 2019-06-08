@@ -1,12 +1,5 @@
 interface Data {
   agente: Agente;
-}
-
-interface Agente {
-  id: string;
-  puntos: number;
-  posicion: number;
-  listaClientes: ListaCliente[];
   listaTareas: ListaTarea[];
 }
 
@@ -14,6 +7,13 @@ interface ListaTarea {
   id: string;
   descripcion: string;
   estado?: any;
+}
+
+interface Agente {
+  id: string;
+  puntos: number;
+  posicion: number;
+  listaClientes: ListaCliente[];
 }
 
 interface ListaCliente {
@@ -47,10 +47,10 @@ interface ListaSeccione {
 interface ListaWidget {
   tipo: string;
   posicion?: number;
-  lista: Lista2[];
+  lista: Lista[];
 }
 
-interface Lista2 {
+interface Lista {
   Titulo?: string;
   Color_titulo?: string;
   Valor_Enfasis?: string;
@@ -117,23 +117,6 @@ interface Lista2 {
   Datos?: Dato | string;
   Tema_Descripcion?: string;
   Cod_Imagen?: string;
-  tipo?: string;
-  posicion?: number;
-  lista?: Lista[];
-  indicador?: string;
-  flechaUrl?: string;
-  etiqueta1?: string;
-  valor1?: string;
-  color1?: string;
-  imagenUrl?: string;
-}
-
-interface Lista {
-  Titulo?: string;
-  Color_titulo?: string;
-  Valor_Enfasis?: string;
-  Valor_Restante?: string;
-  Color_Valor_Enfasis?: string;
   Descripcion1?: string;
   Color_descripcion1?: string;
   Descripcion2?: string;
@@ -142,11 +125,10 @@ interface Lista {
   Color_descripcion3?: string;
   Descripcion4?: string;
   Color_descripcion4?: string;
-  Color_MenorDona?: string;
-  Color_MayorDona?: string;
   IconoGrafica?: string;
+  Color_MayorDona?: string;
+  Color_MenorDona?: string;
   Tipo_de_Dona?: string;
-  ' Valor_Enfasis '?: string;
   Titulo_Linea?: string;
   Color_Titulo_Liena?: string;
   Nombre_Agrupador1?: string;
@@ -161,23 +143,12 @@ interface Lista {
   Agrupador5_Valor1?: string;
   Nombre_Agrupador6?: string;
   Agrupador6_Valor1?: string;
-  Color_Valor1?: string;
-  Fecha_hasta?: string;
-  Reducido?: string;
-  id?: string;
-  titulo?: string;
-  listaEtiquetas?: string[];
-  listaDatos?: ListaDato[];
   indicador?: string;
   flechaUrl?: string;
   etiqueta1?: string;
   valor1?: string;
   color1?: string;
   imagenUrl?: string;
-}
-
-interface ListaDato {
-  datos: number[];
 }
 
 interface Dato {

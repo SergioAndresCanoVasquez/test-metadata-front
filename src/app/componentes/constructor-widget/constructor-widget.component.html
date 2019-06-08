@@ -1,0 +1,38 @@
+<div class="container-fluid animated fadeIn">
+
+  <!-- Constructor para el widget tipo meta -->
+  <div class="row" *ngIf="tipoWidget.tipo === 'meta'">
+    <div class="col">
+      <app-widget-meta [widgets]="listaWidgets"></app-widget-meta>
+    </div>
+  </div>
+
+  <!-- Constructor para el widget tipo podio -->
+  <div class="row" *ngIf="tipoWidget.tipo === 'podio'">
+      <div class="col">
+        <app-widget-podio [widgets]="listaWidgets"></app-widget-podio>
+      </div>
+    </div>
+
+    <!-- Constructor para el widget tipo barra -->
+  <div class="row" *ngIf="tipoWidget.tipo === 'barra'">
+      <div class="col">
+        <app-widget-barra [widgets]="listaWidgets"></app-widget-barra>
+      </div>
+    </div>
+
+    <!-- Constructor para el widget tipo producto -->
+  <div class="row" *ngIf="tipoWidget.tipo === 'producto'">
+      <div class="col">
+        <app-widget-producto [widgets]="listaWidgets"></app-widget-producto>
+      </div>
+    </div>
+
+  <!-- Constructor para el widget tipo datos cliente -->
+  <div class="row" *ngIf="tipoWidget.tipo === 'dato'">
+    <div class="col">
+      <app-widget-dato [widgets]="listaWidgets"></app-widget-dato>
+    </div>
+  </div>
+
+</div>
