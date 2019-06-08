@@ -22,7 +22,6 @@ export class NavegadorComponent implements OnInit {
 
   paginaMostrar(event:any){
     this.mostrarPagina.emit(parseInt(event.target.name));
-    console.log(event.target.name);
   }
 
 }

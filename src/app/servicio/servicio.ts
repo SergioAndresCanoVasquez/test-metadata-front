@@ -15,12 +15,12 @@ const httpOptions = {
 export class Servicio {
 
   httpParams: HttpParams;
-  private url = `${environment.host}/${environment.api}`;
+  private url = `${environment.host}`+`${environment.api}`;
 
   constructor(private http: HttpClient) { }
 
   public getData(): Observable<Data> {
-    return this.http.get<Data>(`${this.url}/GetMetadataDb?assesor=8125111&clienteInterno=1885&appCodigo=123&clienteFinal=SABMiller&ciudad=Medellin&campana=123`).pipe(catchError(err => of(err)));
+    return this.http.get<Data>(`${this.url}/GetMetadata?assesor=123456&client=9876&appCodigo=123&ClienteFinal=SABMiller&ciudad=Medellin&campana=123`).pipe(catchError(err => of(err)));
     // return this.http.get<Agente>("../../assets/data.json").pipe(catchError(err => of(err)));
   }
 

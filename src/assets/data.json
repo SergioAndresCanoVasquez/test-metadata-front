@@ -1,31 +1,32 @@
 {
   "agente": {
-    "id": "8125111",
-    "puntos": 1000000,
-    "posicion": 1,
+    "id": "1",
+    "puntos": 2000,
+    "posicion": 2,
     "listaClientes": [
       {
-        "client": "SABMiller",
+        "cliente": "SAB Miller",
         "listaClientesInternos": [
           {
-            "nombre": "Tienda-Luz Hidalgo",
-            "codigoCliente": 1885,
-            "administrador": "Hidalgo Chamber, Lebida Luz",
-            "cargo": "",
-            "ciudad": "",
+            "nombre": "Tienda Donde Checho",
+            "codigoCliente": "1027 9038",
+            "administrador": "Manuel Charris",
+            "cargo": "Administrador",
+            "ciudad": "Medellin",
             "listaPaginas": [
               {
-                "id": 21,
+                "id": "1",
                 "nombre": "Home",
-                "icono": "",
+                "icono": "home.png",
                 "listaSecciones": [
                   {
-                    "id": 32,
+                    "id": "1",
                     "titulo": "Indicadores del cliente",
-                    "expandido": false,
+                    "expandido": true,
                     "listaWidgets": [
                       {
                         "tipo": "meta",
+                        "posicion": 2,
                         "lista": [
                           {
                             "Titulo": "CERVEZA 1",
@@ -33,11 +34,403 @@
                             "Valor_Enfasis": "140",
                             "Color_Valor_Enfasis": "#ff0000",
                             "Descripcion_1": "Meta: 18",
-                            "Color_descripcion_1": "255, 0, 0",
+                            "Color_descripcion_1": "#ff0000",
                             "Descripcion_2": "Cump: 77%",
-                            "Color_descripcion_2": "255, 0, 0",
+                            "Color_descripcion_2": "#ff0000",
                             "Descripcion_3": "Mes Ant: 180",
-                            "Color_descripcion_3": "255, 0, 0"
+                            "Color_descripcion_3": "#F44242"
+                          },
+                          {
+                            "Titulo": "CERVEZA 2",
+                            "Color_titulo": "255, 0, 0",
+                            "Valor_Enfasis": "140",
+                            "Color_Valor_Enfasis": "#ff0000",
+                            "Descripcion_1": "Meta: 18",
+                            "Color_descripcion_1": "#ff0000",
+                            "Descripcion_2": "Cump: 77%",
+                            "Color_descripcion_2": "#ff0000",
+                            "Descripcion_3": "Mes Ant: 180",
+                            "Color_descripcion_3": "#F44242"
+                          },
+                          {
+                            "Titulo": "CERVEZA 3",
+                            "Color_titulo": "255, 0, 0",
+                            "Valor_Enfasis": "140",
+                            "Color_Valor_Enfasis": "#ff0000",
+                            "Descripcion_1": "Meta: 18",
+                            "Color_descripcion_1": "#ff0000",
+                            "Descripcion_2": "Cump: 77%",
+                            "Color_descripcion_2": "#ff0000",
+                            "Descripcion_3": "Mes Ant: 180",
+                            "Color_descripcion_3": "#F44242"
+                          },
+                          {
+                            "Titulo": "CERVEZA 4",
+                            "Color_titulo": "255, 0, 0",
+                            "Valor_Enfasis": "140",
+                            "Color_Valor_Enfasis": "#ff0000",
+                            "Descripcion_1": "Meta: 18",
+                            "Color_descripcion_1": "#ff0000",
+                            "Descripcion_2": "Cump: 77%",
+                            "Color_descripcion_2": "#ff0000",
+                            "Descripcion_3": "Mes Ant: 180",
+                            "Color_descripcion_3": "#F44242"
+                          }
+                        ]
+                      },
+                      {
+                        "tipo": "podio",
+                        "posicion": 1,
+                        "lista": [
+                          {
+                            "id": "1",
+                            "titulo": "Cervezas HTLS 5",
+                            "Valor1": "200000",
+                            "Valor2": "300000",
+                            "Valor3": "250000",
+                            "Etiqueta1": "200 - 300 Cajas",
+                            "Etiqueta2": "100 - 400 Cajas",
+                            "Etiqueta3": "400 - 450 Cajas",
+                            "Columna_Resaltada": 1,
+                            "Color_para_resaltar": "#C223CE"
+                          },
+                          {
+                            "id": "1",
+                            "titulo": "Cervezas HTLS 4",
+                            "Valor1": "200000",
+                            "Valor2": "300000",
+                            "Valor3": "250000",
+                            "Etiqueta1": "200 - 300 Cajas",
+                            "Etiqueta2": "100 - 400 Cajas",
+                            "Etiqueta3": "400 - 450 Cajas",
+                            "Columna_Resaltada": 2,
+                            "Color_para_resaltar": "#C223CE"
+                          },
+                          {
+                            "id": "3",
+                            "titulo": "Cervezas HTLS 3",
+                            "Valor1": "200000",
+                            "Valor2": "300000",
+                            "Valor3": "250000",
+                            "Etiqueta1": "200 - 300 Cajas",
+                            "Etiqueta2": "100 - 400 Cajas",
+                            "Etiqueta3": "400 - 450 Cajas",
+                            "Columna_Resaltada": 3,
+                            "Color_para_resaltar": "#C223CE"
+                          }
+                        ]
+                      },
+                      {
+                        "tipo": "barra",
+                        "posicion": 3,
+                        "lista": [
+                          {
+                            "id": "1",
+                            "Titulo": "Barra 1",
+                            "Color_Valor1": "#e83e8c",
+                            "Color_Valor2": "#17a2b8",
+                            "Color_Titulo": "#6610f2",
+                            "listaEtiquetas": [
+                              "Enero",
+                              "Febrero",
+                              "Marzo",
+                              "Abril",
+                              "Mayo"
+                            ],
+                            "listaDatosValor1": [
+                              2,
+                              3,
+                              9,
+                              10,
+                              5
+                            ],
+                            "listaDatosValor2": [
+                              1,
+                              2,
+                              6,
+                              8,
+                              9
+                            ]
+                          },
+                          {
+                            "id": "1",
+                            "Titulo": "Barra 2",
+                            "Color_Valor1": "#e83e8c",
+                            "Color_Valor2": "#17a2b8",
+                            "Color_Titulo": "#6610f2",
+                            "listaEtiquetas": [
+                              "Enero",
+                              "Febrero",
+                              "Marzo",
+                              "Abril",
+                              "Mayo"
+                            ],
+                            "listaDatosValor1": [
+                              2,
+                              3,
+                              9,
+                              10,
+                              5
+                            ],
+                            "listaDatosValor2": [
+                              1,
+                              2,
+                              6,
+                              8,
+                              9
+                            ]
+                          },
+                          {
+                            "id": "1",
+                            "Titulo": "Barra 3",
+                            "Color_Valor1": "#e83e8c",
+                            "Color_Valor2": "#17a2b8",
+                            "Color_Titulo": "#6610f2",
+                            "listaEtiquetas": [
+                              "Enero",
+                              "Febrero",
+                              "Marzo",
+                              "Abril",
+                              "Mayo"
+                            ],
+                            "listaDatosValor1": [
+                              2,
+                              3,
+                              9,
+                              10,
+                              5
+                            ],
+                            "listaDatosValor2": [
+                              1,
+                              2,
+                              6,
+                              8,
+                              9
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "tipo": "producto",
+                        "posicion": 4,
+                        "lista": [
+                          {
+                            "Titulo": "Barra",
+                            "Color_Titulo": "",
+                            "Icogra_Agrup1": "stella-artois.png",
+                            "Estado_Agrupador1": true,
+                            "Titulo_Agrupador1": "1111",
+                            "Agrupador1_Descrip1": "Budweiser P",
+                            "Agrupador1_Descrip2": "200x500",
+                            "Icogra_Agrup2": "stella-artois.png",
+                            "Estado_Agrupador2": true,
+                            "Titulo_Agrupador2": "1111",
+                            "Agrupador2_Descrip1": "Budweiser P",
+                            "Agrupador2_Descrip2": "200x500",
+                            "Icogra_Agrup3": "stella-artois.png",
+                            "Estado_Agrupador3": true,
+                            "Titulo_Agrupador3": "1111",
+                            "Agrupador3_Descrip1": "Budweiser P",
+                            "Agrupador3_Descrip2": "200x500",
+                            "Icogra_Agrup4": "stella-artois.png",
+                            "Estado_Agrupador4": true,
+                            "Titulo_Agrupador4": "1111",
+                            "Agrupador4_Descrip1": "Budweiser P",
+                            "Agrupador4_Descrip2": "200x500",
+                            "Icogra_Agrup5": "stella-artois.png",
+                            "Estado_Agrupador5": true,
+                            "Titulo_Agrupador5": "1111",
+                            "Agrupador5_Descrip1": "Budweiser P",
+                            "Agrupador5_Descrip2": "200x500",
+                            "Icogra_Agrup6": "stella-artois.png",
+                            "Estado_Agrupador6": true,
+                            "Titulo_Agrupador6": "1111",
+                            "Agrupador6_Descrip1": "Budweiser P",
+                            "Agrupador6_Descrip2": "200x500",
+                            "Color_TituloAgrupador": "",
+                            "Color_Descripcion1": "",
+                            "Color_Descripcion2": ""
+                          },
+                          {
+                            "Titulo": "Barra 2",
+                            "Color_Titulo": "",
+                            "Icogra_Agrup1": "stella-artois.png",
+                            "Estado_Agrupador1": true,
+                            "Titulo_Agrupador1": "1111",
+                            "Agrupador1_Descrip1": "Budweiser P",
+                            "Agrupador1_Descrip2": "200x500",
+                            "Icogra_Agrup2": "stella-artois.png",
+                            "Estado_Agrupador2": true,
+                            "Titulo_Agrupador2": "1111",
+                            "Agrupador2_Descrip1": "Budweiser P",
+                            "Agrupador2_Descrip2": "200x500",
+                            "Icogra_Agrup3": "stella-artois.png",
+                            "Estado_Agrupador3": true,
+                            "Titulo_Agrupador3": "1111",
+                            "Agrupador3_Descrip1": "Budweiser P",
+                            "Agrupador3_Descrip2": "200x500",
+                            "Icogra_Agrup4": "stella-artois.png",
+                            "Estado_Agrupador4": true,
+                            "Titulo_Agrupador4": "1111",
+                            "Agrupador4_Descrip1": "Budweiser P",
+                            "Agrupador4_Descrip2": "200x500",
+                            "Icogra_Agrup5": "stella-artois.png",
+                            "Estado_Agrupador5": true,
+                            "Titulo_Agrupador5": "1111",
+                            "Agrupador5_Descrip1": "Budweiser P",
+                            "Agrupador5_Descrip2": "200x500",
+                            "Icogra_Agrup6": "stella-artois.png",
+                            "Estado_Agrupador6": true,
+                            "Titulo_Agrupador6": "1111",
+                            "Agrupador6_Descrip1": "Budweiser P",
+                            "Agrupador6_Descrip2": "200x500",
+                            "Color_TituloAgrupador": "",
+                            "Color_Descripcion1": "",
+                            "Color_Descripcion2": ""
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "1",
+                    "titulo": "Indicadores del cliente",
+                    "expandido": true,
+                    "listaWidgets": [
+                      {
+                        "tipo": "imagen",
+                        "lista": [
+                          {
+                            "id": "1",
+                            "Titulo": "Imagen",
+                            "listaItems": [
+                              {
+                                "titulo": "Imagen 1",
+                                "descripcion": "Imagen 1",
+                                "imagenUrl": "https://picsum.photos/900/500?random&t=1"
+                              },
+                              {
+                                "titulo": "Imagen 2",
+                                "descripcion": "Imagen 2",
+                                "imagenUrl": "https://picsum.photos/900/500?random&t=2"
+                              },
+                              {
+                                "titulo": "Imagen 3",
+                                "descripcion": "Imagen 3",
+                                "imagenUrl": "https://picsum.photos/900/500?random&t=3"
+                              },
+                              {
+                                "titulo": "Imagen 4",
+                                "descripcion": "Imagen 4",
+                                "imagenUrl": "https://picsum.photos/900/500?random&t=4"
+                              },
+                              {
+                                "titulo": "Imagen 5",
+                                "descripcion": "Imagen 5",
+                                "imagenUrl": "https://picsum.photos/900/500?random&t=5"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "tipo": "eventos",
+                        "lista": [
+                          {
+                            "id": "1",
+                            "Tipo": "Deportivo",
+                            "Descripcion": "\r\nMillonarios- Tolima\r\n",
+                            "Imagen": "imagenEvento.jpg",
+                            "Datos": ""
+                          },
+                          {
+                            "id": "1",
+                            "Tipo": "Deportivo",
+                            "Descripcion": "\r\nMillonarios- Tolima\r\n",
+                            "Imagen": "imagenEvento.jpg",
+                            "Datos": ""
+                          },
+                          {
+                            "id": "1",
+                            "Tipo": "Clima",
+                            "Descripcion": "",
+                            "Imagen": "",
+                            "Datos": {
+                              "location": {
+                                "name": "Medellin",
+                                "region": "Antioquia",
+                                "country": "Colombia",
+                                "lat": 6.29,
+                                "lon": -75.54,
+                                "tz_id": "America/Bogota",
+                                "localtime_epoch": 1559957866,
+                                "localtime": "2019-06-07 20:37"
+                              },
+                              "current": {
+                                "last_updated_epoch": 1559952014,
+                                "last_updated": "2019-06-07 19:00",
+                                "temp_c": 20,
+                                "temp_f": 68,
+                                "is_day": 0,
+                                "condition": {
+                                  "text": "Overcast",
+                                  "icon": "//cdn.apixu.com/weather/64x64/night/122.png",
+                                  "code": 1009
+                                },
+                                "wind_mph": 8.1,
+                                "wind_kph": 13,
+                                "wind_degree": 180,
+                                "wind_dir": "S",
+                                "pressure_mb": 1020,
+                                "pressure_in": 30.6,
+                                "precip_mm": 5.1,
+                                "precip_in": 0.2,
+                                "humidity": 78,
+                                "cloud": 75,
+                                "feelslike_c": 20,
+                                "feelslike_f": 68,
+                                "vis_km": 10,
+                                "vis_miles": 6,
+                                "uv": 0,
+                                "gust_mph": 9.2,
+                                "gust_kph": 14.8
+                              },
+                              "forecast": {
+                                "forecastday": [
+                                  {
+                                    "date": "2019-06-07",
+                                    "date_epoch": 1559865600,
+                                    "day": {
+                                      "maxtemp_c": 26.4,
+                                      "maxtemp_f": 79.5,
+                                      "mintemp_c": 12.6,
+                                      "mintemp_f": 54.7,
+                                      "avgtemp_c": 18.6,
+                                      "avgtemp_f": 65.4,
+                                      "maxwind_mph": 2,
+                                      "maxwind_kph": 3.2,
+                                      "totalprecip_mm": 16.1,
+                                      "totalprecip_in": 0.63,
+                                      "avgvis_km": 10.1,
+                                      "avgvis_miles": 6,
+                                      "avghumidity": 81,
+                                      "condition": {
+                                        "text": "Patchy rain possible",
+                                        "icon": "//cdn.apixu.com/weather/64x64/day/176.png",
+                                        "code": 1063
+                                      },
+                                      "uv": 6.2
+                                    },
+                                    "astro": {
+                                      "sunrise": "05:47 AM",
+                                      "sunset": "06:15 PM",
+                                      "moonrise": "09:50 AM",
+                                      "moonset": "10:35 PM"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
                           }
                         ]
                       }
@@ -46,183 +439,829 @@
                 ]
               },
               {
-                "id": 22,
+                "id": "2",
                 "nombre": "Datos del cliente",
-                "icono": "",
+                "icono": "home.svg",
                 "listaSecciones": [
                   {
-                    "id": 33,
-                    "titulo": "Indicadores del cliente",
-                    "expandido": false,
+                    "id": "1",
+                    "titulo": "Datos del cliente",
+                    "expandido": true,
                     "listaWidgets": [
                       {
-                        "tipo": "meta",
+                        "tipo": "dato",
                         "lista": [
                           {
-                            "Titulo": "CERVEZA 2",
-                            "Color_titulo": "255, 0, 0",
-                            "Valor_Enfasis": "140",
-                            "Color_Valor_Enfasis": "#ff0000",
-                            "Descripcion_1": "Meta: 18",
-                            "Color_descripcion_1": "255, 0, 0",
-                            "Descripcion_2": "Cump: 77%",
-                            "Color_descripcion_2": "255, 0, 0",
-                            "Descripcion_3": "Mes Ant: 180",
-                            "Color_descripcion_3": "255, 0, 0"
+                            "id": "1",
+                            "Tema_Descripcion": "CONTACTO TELEVENTAS 2",
+                            "Cod_Imagen": "persona.svg",
+                            "listaItems": [
+                              {
+                                "Descripcion": "Contacto 1",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 2",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 3",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 4",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 5",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 6",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 1",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              }
+                            ]
                           },
                           {
-                            "Titulo": "CERVEZA 3",
-                            "Color_titulo": "255, 0, 0",
-                            "Valor_Enfasis": "140",
-                            "Color_Valor_Enfasis": "#ff0000",
-                            "Descripcion_1": "Meta: 18",
-                            "Color_descripcion_1": "255, 0, 0",
-                            "Descripcion_2": "Cump: 77%",
-                            "Color_descripcion_2": "255, 0, 0",
-                            "Descripcion_3": "Mes Ant: 180",
-                            "Color_descripcion_3": "255, 0, 0"
+                            "id": "1",
+                            "Tema_Descripcion": "CONTACTO TELEVENTAS 2",
+                            "Cod_Imagen": "persona.svg",
+                            "listaItems": [
+                              {
+                                "Descripcion": "Contacto 1",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 2",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 3",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 4",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 5",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 6",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 1",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              }
+                            ]
+                          },
+                          {
+                            "id": "1",
+                            "Tema_Descripcion": "CONTACTO TELEVENTAS 3",
+                            "Cod_Imagen": "persona.svg",
+                            "listaItems": [
+                              {
+                                "Descripcion": "Contacto 1",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 2",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 3",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 4",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 5",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 6",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 1",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              }
+                            ]
+                          },
+                          {
+                            "id": "1",
+                            "Tema_Descripcion": "CONTACTO TELEVENTAS 4",
+                            "Cod_Imagen": "persona.svg",
+                            "listaItems": [
+                              {
+                                "Descripcion": "Contacto 1",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 2",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 3",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 4",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 5",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 6",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              },
+                              {
+                                "Descripcion": "Contacto 1",
+                                "Valor": "2.00 - 2.00",
+                                "Color": "",
+                                "Resaltado": false,
+                                "Alineacion": "L"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "3",
+                "nombre": "Agente",
+                "icono": "https://miimages.com/home.svg",
+                "listaSecciones": [
+                  {
+                    "id": "1",
+                    "titulo": "Indicadores del mes",
+                    "expandido": true,
+                    "listaWidgets": [
+                      {
+                        "tipo": "pair",
+                        "lista": [
+                          {
+                            "tipo": "donut",
+                            "posicion": 3,
+                            "lista": [
+                              {
+                                "Titulo": "Meta Cerveza",
+                                "Color_titulo": "",
+                                "Valor_Enfasis": "30",
+                                "Valor_Restante": "70",
+                                "Color_Valor_Enfasis": "",
+                                "Descripcion1": "Meta:",
+                                "Color_descripcion1": "",
+                                "Descripcion2": "108 Htls",
+                                "Color_descripcion2": "",
+                                "Descripcion3": "Real:",
+                                "Color_descripcion3": "",
+                                "Descripcion4": "69.3 Htls",
+                                "Color_descripcion4": "",
+                                "Color_MenorDona": "",
+                                "Color_MayorDona": "",
+                                "IconoGrafica": "stella-artois.png",
+                                "Tipo_de_Dona": "doughnut"
+                              },
+                              {
+                                "Titulo": "Meta Cerveza",
+                                "Color_titulo": "",
+                                "Valor_Enfasis": "50",
+                                "Valor_Restante": "50",
+                                "Color_Valor_Enfasis": "",
+                                "Descripcion1": "Meta:",
+                                "Color_descripcion1": "",
+                                "Descripcion2": "108 Htls",
+                                "Color_descripcion2": "",
+                                "Descripcion3": "Real:",
+                                "Color_descripcion3": "",
+                                "Descripcion4": "69.3 Htls",
+                                "Color_descripcion4": "",
+                                "Color_MenorDona": "",
+                                "Color_MayorDona": "",
+                                "IconoGrafica": "stella-artois.png",
+                                "Tipo_de_Dona": "pie"
+                              },
+                              {
+                                "Titulo": "Meta Cerveza",
+                                "Color_titulo": "",
+                                "Valor_Enfasis": "40",
+                                "Valor_Restante": "60",
+                                "Color_Valor_Enfasis": "",
+                                "Descripcion1": "Meta:",
+                                "Color_descripcion1": "",
+                                "Descripcion2": "108 Htls",
+                                "Color_descripcion2": "",
+                                "Descripcion3": "Real:",
+                                "Color_descripcion3": "",
+                                "Descripcion4": "69.3 Htls",
+                                "Color_descripcion4": "",
+                                "Color_MenorDona": "",
+                                "Color_MayorDona": "",
+                                "IconoGrafica": "stella-artois.png",
+                                "Tipo_de_Dona": "pie"
+                              },
+                              {
+                                "Titulo": "Meta Cerveza",
+                                "Color_titulo": "",
+                                "Valor_Enfasis": "90",
+                                "Valor_Restante": "10",
+                                "Color_Valor_Enfasis": "",
+                                "Descripcion1": "Meta:",
+                                "Color_descripcion1": "",
+                                "Descripcion2": "108 Htls",
+                                "Color_descripcion2": "",
+                                "Descripcion3": "Real:",
+                                "Color_descripcion3": "",
+                                "Descripcion4": "69.3 Htls",
+                                "Color_descripcion4": "",
+                                "Color_MenorDona": "",
+                                "Color_MayorDona": "",
+                                "IconoGrafica": "stella-artois.png",
+                                "Tipo_de_Dona": "pie"
+                              }
+                            ]
+                          },
+                          {
+                            "tipo": "donaslineas",
+                            "lista": [
+                              {
+                                "Titulo": "Meta Cerveza 1",
+                                "Color_titulo": "#16c1b3",
+                                " Valor_Enfasis ": "80",
+                                "Color_Valor_Enfasis": "",
+                                "Descripcion1": "Meta:",
+                                "Color_descripcion1": "#16c1b3",
+                                "Descripcion2": "108 Htls",
+                                "Color_descripcion2": "",
+                                "Descripcion3": "Real",
+                                "Color_descripcion3": "#16c1b3",
+                                "Descripcion4": "69,3 Htls",
+                                "Color_descripcion4": "",
+                                "IconoGrafica": "stella-artois.png",
+                                "Color_MayorDona": "",
+                                "Color_MenorDona": "",
+                                "Tipo_de_Dona": "pie",
+                                "Titulo_Linea": "Linea 1",
+                                "Color_Titulo_Liena": "",
+                                "Nombre_Agrupador1": "Enero",
+                                "Agrupador1_Valor1": "10",
+                                "Nombre_Agrupador2": "Febrero",
+                                "Agrupador2_Valor1": "20",
+                                "Nombre_Agrupador3": "Marzo",
+                                "Agrupador3_Valor1": "30",
+                                "Nombre_Agrupador4": "Abril",
+                                "Agrupador4_Valor1": "40",
+                                "Nombre_Agrupador5": "Mayo",
+                                "Agrupador5_Valor1": "50",
+                                "Nombre_Agrupador6": "Junio",
+                                "Agrupador6_Valor1": "60",
+                                "Color_Valor1": ""
+                              },
+                              {
+                                "Titulo": "Meta Cerveza 2",
+                                "Color_titulo": "#16c1b3",
+                                " Valor_Enfasis ": "80",
+                                "Color_Valor_Enfasis": "",
+                                "Descripcion1": "Meta:",
+                                "Color_descripcion1": "#16c1b3",
+                                "Descripcion2": "108 Htls",
+                                "Color_descripcion2": "",
+                                "Descripcion3": "Real",
+                                "Color_descripcion3": "#16c1b3",
+                                "Descripcion4": "69,3 Htls",
+                                "Color_descripcion4": "",
+                                "IconoGrafica": "stella-artois.png",
+                                "Color_MayorDona": "",
+                                "Color_MenorDona": "",
+                                "Tipo_de_Dona": "pie",
+                                "Titulo_Linea": "Linea 1",
+                                "Color_Titulo_Liena": "",
+                                "Nombre_Agrupador1": "Enero",
+                                "Agrupador1_Valor1": "10",
+                                "Nombre_Agrupador2": "Febrero",
+                                "Agrupador2_Valor1": "20",
+                                "Nombre_Agrupador3": "Marzo",
+                                "Agrupador3_Valor1": "30",
+                                "Nombre_Agrupador4": "Abril",
+                                "Agrupador4_Valor1": "40",
+                                "Nombre_Agrupador5": "Mayo",
+                                "Agrupador5_Valor1": "50",
+                                "Nombre_Agrupador6": "Junio",
+                                "Agrupador6_Valor1": "60",
+                                "Color_Valor1": "",
+                                "Fecha_hasta": "",
+                                "Reducido": ""
+                              }
+                            ]
+                          },
+                          {
+                            "tipo": "linea",
+                            "lista": [
+                              {
+                                "id": "1",
+                                "titulo": "Linea 1",
+                                "listaEtiquetas": [
+                                  "L11",
+                                  "L21",
+                                  "L31",
+                                  "L41",
+                                  "L51"
+                                ],
+                                "listaDatos": [
+                                  {
+                                    "datos": [
+                                      80,
+                                      57,
+                                      56,
+                                      12,
+                                      63
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "2",
+                                "titulo": "Linea 2",
+                                "listaEtiquetas": [
+                                  "L12",
+                                  "L22",
+                                  "L32",
+                                  "L42",
+                                  "L52"
+                                ],
+                                "listaDatos": [
+                                  {
+                                    "datos": [
+                                      3,
+                                      8,
+                                      98,
+                                      78,
+                                      32
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "3",
+                                "titulo": "Linea 3",
+                                "listaEtiquetas": [
+                                  "L13",
+                                  "L23",
+                                  "L33",
+                                  "L43",
+                                  "L53"
+                                ],
+                                "listaDatos": [
+                                  {
+                                    "datos": [
+                                      42,
+                                      65,
+                                      24,
+                                      89,
+                                      78
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "4",
+                                "titulo": "Linea 4",
+                                "listaEtiquetas": [
+                                  "L14",
+                                  "L24",
+                                  "L34",
+                                  "L44",
+                                  "L54"
+                                ],
+                                "listaDatos": [
+                                  {
+                                    "datos": [
+                                      25,
+                                      65,
+                                      7,
+                                      98,
+                                      8
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "5",
+                                "titulo": "Linea 5",
+                                "listaEtiquetas": [
+                                  "L15",
+                                  "L25",
+                                  "L35",
+                                  "L45",
+                                  "L55"
+                                ],
+                                "listaDatos": [
+                                  {
+                                    "datos": [
+                                      12,
+                                      45,
+                                      78,
+                                      6,
+                                      89
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "tipo": "pair",
+                        "lista": [
+                          {
+                            "tipo": "indicadorcot",
+                            "lista": [
+                              {
+                                "id": "1",
+                                "titulo": "Cerveza 108 Htls",
+                                "indicador": "98%",
+                                "flechaUrl": "down",
+                                "etiqueta1": "Octubre",
+                                "valor1": "20%:",
+                                "color1": "#187C02",
+                                "imagenUrl": "https://tpmetadata.azurewebsites.net/imagenes/stella-artois.png"
+                              },
+                              {
+                                "id": "2",
+                                "titulo": "Gaseosa 100 Htls",
+                                "indicador": "100%",
+                                "flechaUrl": "up",
+                                "etiqueta1": "Noviembre",
+                                "valor1": "10%:",
+                                "color1": "#000000",
+                                "imagenUrl": "https://tpmetadata.azurewebsites.net/imagenes/stella-artois.png"
+                              },
+                              {
+                                "id": "3",
+                                "titulo": "Yogurt 10 Htls",
+                                "indicador": "110%",
+                                "flechaUrl": "down",
+                                "etiqueta1": "Marzo",
+                                "valor1": "50.2%:",
+                                "color1": "#F44242",
+                                "imagenUrl": "https://tpmetadata.azurewebsites.net/imagenes/stella-artois.png"
+                              },
+                              {
+                                "id": "4",
+                                "titulo": "Leche 256 Htls",
+                                "indicador": "99%",
+                                "flechaUrl": "up",
+                                "etiqueta1": "Octubre",
+                                "valor1": "66%:",
+                                "color1": "#000000",
+                                "imagenUrl": "https://tpmetadata.azurewebsites.net/imagenes/stella-artois.png"
+                              },
+                              {
+                                "id": "5",
+                                "titulo": "Sun Tea 21 Htls",
+                                "indicador": "50%",
+                                "flechaUrl": "down",
+                                "etiqueta1": "Junio",
+                                "valor1": "90%:",
+                                "color1": "#F44242",
+                                "imagenUrl": "https://tpmetadata.azurewebsites.net/imagenes/stella-artois.png"
+                              }
+                            ]
+                          },
+                          {
+                            "tipo": "linea",
+                            "lista": [
+                              {
+                                "id": "1",
+                                "titulo": "Linea 1",
+                                "listaEtiquetas": [
+                                  "L11",
+                                  "L21",
+                                  "L31",
+                                  "L41",
+                                  "L51"
+                                ],
+                                "listaDatos": [
+                                  {
+                                    "datos": [
+                                      80,
+                                      72,
+                                      23,
+                                      89,
+                                      92
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "2",
+                                "titulo": "Linea 2",
+                                "listaEtiquetas": [
+                                  "L12",
+                                  "L22",
+                                  "L32",
+                                  "L42",
+                                  "L52"
+                                ],
+                                "listaDatos": [
+                                  {
+                                    "datos": [
+                                      90,
+                                      91,
+                                      56,
+                                      10,
+                                      98
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "3",
+                                "titulo": "Linea 3",
+                                "listaEtiquetas": [
+                                  "L13",
+                                  "L23",
+                                  "L33",
+                                  "L43",
+                                  "L53"
+                                ],
+                                "listaDatos": [
+                                  {
+                                    "datos": [
+                                      12,
+                                      58,
+                                      41,
+                                      6,
+                                      95
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "4",
+                                "titulo": "Linea 4",
+                                "listaEtiquetas": [
+                                  "L14",
+                                  "L24",
+                                  "L34",
+                                  "L44",
+                                  "L54"
+                                ],
+                                "listaDatos": [
+                                  {
+                                    "datos": [
+                                      5,
+                                      23,
+                                      97,
+                                      11,
+                                      8
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "5",
+                                "titulo": "Linea 5",
+                                "listaEtiquetas": [
+                                  "L15",
+                                  "L25",
+                                  "L35",
+                                  "L45",
+                                  "L55"
+                                ],
+                                "listaDatos": [
+                                  {
+                                    "datos": [
+                                      54,
+                                      23,
+                                      17,
+                                      89,
+                                      78
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
                           }
                         ]
                       }
                     ]
                   },
                   {
-                    "id": 34,
-                    "titulo": "Indicadores del COT",
-                    "expandido": false,
+                    "id": "2",
+                    "titulo": "Indicadores del agente",
+                    "expandido": true,
                     "listaWidgets": [
                       {
-                        "tipo": "meta",
+                        "tipo": "indicadorcot",
                         "lista": [
                           {
-                            "Titulo": "CERVEZA 4",
-                            "Color_titulo": "255, 0, 0",
-                            "Valor_Enfasis": "140",
-                            "Color_Valor_Enfasis": "#ff0000",
-                            "Descripcion_1": "Meta: 18",
-                            "Color_descripcion_1": "255, 0, 0",
-                            "Descripcion_2": "Cump: 77%",
-                            "Color_descripcion_2": "255, 0, 0",
-                            "Descripcion_3": "Mes Ant: 180",
-                            "Color_descripcion_3": "255, 0, 0"
+                            "id": "1",
+                            "titulo": "Cerveza",
+                            "indicador": "98%",
+                            "flechaUrl": "down",
+                            "etiqueta1": "Octubre",
+                            "valor1": "20%:",
+                            "color1": "#187C02",
+                            "imagenUrl": "https://tpmetadata.azurewebsites.net/imagenes/stella-artois.png"
                           },
                           {
-                            "Titulo": "CERVEZA 5",
-                            "Color_titulo": "255, 0, 0",
-                            "Valor_Enfasis": "140",
-                            "Color_Valor_Enfasis": "#ff0000",
-                            "Descripcion_1": "Meta: 18",
-                            "Color_descripcion_1": "255, 0, 0",
-                            "Descripcion_2": "Cump: 77%",
-                            "Color_descripcion_2": "255, 0, 0",
-                            "Descripcion_3": "Mes Ant: 180",
-                            "Color_descripcion_3": "255, 0, 0"
+                            "id": "2",
+                            "titulo": "Gaseosa",
+                            "indicador": "100%",
+                            "flechaUrl": "up",
+                            "etiqueta1": "Noviembre",
+                            "valor1": "10%:",
+                            "color1": "#000000",
+                            "imagenUrl": "https://tpmetadata.azurewebsites.net/imagenes/stella-artois.png"
                           },
                           {
-                            "Titulo": "CERVEZA 6",
-                            "Color_titulo": "255, 0, 0",
-                            "Valor_Enfasis": "140",
-                            "Color_Valor_Enfasis": "#ff0000",
-                            "Descripcion_1": "Meta: 18",
-                            "Color_descripcion_1": "255, 0, 0",
-                            "Descripcion_2": "Cump: 77%",
-                            "Color_descripcion_2": "255, 0, 0",
-                            "Descripcion_3": "Mes Ant: 180",
-                            "Color_descripcion_3": "255, 0, 0"
+                            "id": "3",
+                            "titulo": "Yogurt",
+                            "indicador": "110%",
+                            "flechaUrl": "down",
+                            "etiqueta1": "Marzo",
+                            "valor1": "50.2%:",
+                            "color1": "#F44242",
+                            "imagenUrl": "https://tpmetadata.azurewebsites.net/imagenes/stella-artois.png"
                           },
                           {
-                            "Titulo": "CERVEZA 7",
-                            "Color_titulo": "255, 0, 0",
-                            "Valor_Enfasis": "140",
-                            "Color_Valor_Enfasis": "#ff0000",
-                            "Descripcion_1": "Meta: 18",
-                            "Color_descripcion_1": "255, 0, 0",
-                            "Descripcion_2": "Cump: 77%",
-                            "Color_descripcion_2": "255, 0, 0",
-                            "Descripcion_3": "Mes Ant: 180",
-                            "Color_descripcion_3": "255, 0, 0"
+                            "id": "4",
+                            "titulo": "Malta",
+                            "indicador": "99%",
+                            "flechaUrl": "up",
+                            "etiqueta1": "Octubre",
+                            "valor1": "66%:",
+                            "color1": "#000000",
+                            "imagenUrl": "https://tpmetadata.azurewebsites.net/imagenes/stella-artois.png"
                           },
                           {
-                            "Titulo": "CERVEZA 8",
-                            "Color_titulo": "255, 0, 0",
-                            "Valor_Enfasis": "140",
-                            "Color_Valor_Enfasis": "#ff0000",
-                            "Descripcion_1": "Meta: 18",
-                            "Color_descripcion_1": "255, 0, 0",
-                            "Descripcion_2": "Cump: 77%",
-                            "Color_descripcion_2": "255, 0, 0",
-                            "Descripcion_3": "Mes Ant: 180",
-                            "Color_descripcion_3": "255, 0, 0"
+                            "id": "5",
+                            "titulo": "Sun Tea",
+                            "indicador": "50%",
+                            "flechaUrl": "down",
+                            "etiqueta1": "Junio",
+                            "valor1": "90%:",
+                            "color1": "#F44242",
+                            "imagenUrl": "https://tpmetadata.azurewebsites.net/imagenes/stella-artois.png"
                           }
                         ]
                       }
                     ]
-                  },
-                  {
-                    "id": 35,
-                    "titulo": "Indicadores del COT NO CLIENTE",
-                    "expandido": false,
-                    "listaWidgets": [
-                      {
-                        "tipo": "meta",
-                        "lista": [
-                          {
-                            "Titulo": "CERVEZA 12",
-                            "Color_titulo": "255, 0, 0",
-                            "Valor_Enfasis": "140",
-                            "Color_Valor_Enfasis": "#ff0000",
-                            "Descripcion_1": "Meta: 18",
-                            "Color_descripcion_1": "255, 0, 0",
-                            "Descripcion_2": "Cump: 77%",
-                            "Color_descripcion_2": "255, 0, 0",
-                            "Descripcion_3": "Mes Ant: 180",
-                            "Color_descripcion_3": "255, 0, 0"
-                          },
-                          {
-                            "Titulo": "CERVEZA 13",
-                            "Color_titulo": "255, 0, 0",
-                            "Valor_Enfasis": "140",
-                            "Color_Valor_Enfasis": "#ff0000",
-                            "Descripcion_1": "Meta: 18",
-                            "Color_descripcion_1": "255, 0, 0",
-                            "Descripcion_2": "Cump: 77%",
-                            "Color_descripcion_2": "255, 0, 0",
-                            "Descripcion_3": "Mes Ant: 180",
-                            "Color_descripcion_3": "255, 0, 0"
-                          },
-                          {
-                            "Titulo": "CERVEZA 14",
-                            "Color_titulo": "255, 0, 0",
-                            "Valor_Enfasis": "140",
-                            "Color_Valor_Enfasis": "#ff0000",
-                            "Descripcion_1": "Meta: 18",
-                            "Color_descripcion_1": "255, 0, 0",
-                            "Descripcion_2": "Cump: 77%",
-                            "Color_descripcion_2": "255, 0, 0",
-                            "Descripcion_3": "Mes Ant: 180",
-                            "Color_descripcion_3": "255, 0, 0"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "id": 36,
-                    "titulo": "Indicadores del COT NO AGENTE",
-                    "expandido": false,
-                    "listaWidgets": []
-                  },
-                  {
-                    "id": 37,
-                    "titulo": "Indicadores del COT NO",
-                    "expandido": false,
-                    "listaWidgets": []
                   }
                 ]
               }
             ]
           }
         ]
+      }
+    ],
+    "listaTareas": [
+      {
+        "id": "1",
+        "descripcion": "Tarea numero 1",
+        "estado": null
+      },
+      {
+        "id": "2",
+        "descripcion": "Tarea numero 2",
+        "estado": null
+      },
+      {
+        "id": "3",
+        "descripcion": "Tarea numero 3",
+        "estado": null
+      },
+      {
+        "id": "4",
+        "descripcion": "Tarea numero 4",
+        "estado": null
+      },
+      {
+        "id": "5",
+        "descripcion": "Tarea numero 5",
+        "estado": null
+      },
+      {
+        "id": "6",
+        "descripcion": "Tarea numero 6",
+        "estado": null
+      },
+      {
+        "id": "7",
+        "descripcion": "Tarea numero 7",
+        "estado": null
+      },
+      {
+        "id": "8",
+        "descripcion": "Tarea numero 8",
+        "estado": null
+      },
+      {
+        "id": "9",
+        "descripcion": "Tarea numero 9",
+        "estado": null
+      },
+      {
+        "id": "10",
+        "descripcion": "Tarea numero 10",
+        "estado": null
       }
     ]
   }

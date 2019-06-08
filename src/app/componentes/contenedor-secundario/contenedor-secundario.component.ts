@@ -19,7 +19,6 @@ export class ContenedorSecundarioComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log(this.mostrarPagina);
   }
 
 }
