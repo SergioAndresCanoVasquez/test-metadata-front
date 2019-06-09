@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col" *ngFor="let widget of widgets; let i = index">
+    <div class="card w-100">
+      <div class="row m-1">
+        <div class="col pb-0">
+          <p class="m-0" [ngStyle]="{'color': widget.Color_titulo}">{{widget.Titulo}}</p>
+        </div>
+      </div>
+      <div class="row m-0">
+        <div class="col-6 d-block">
+          <h1 [ngStyle]="{'color': widget.Color_Valor_Enfasis}">{{widget.Valor_Enfasis}}</h1>
+        </div>
+        <div class="col-6">
+          <p class="m-1" [ngStyle]="{'color': widget.Color_descripcion_1}">{{widget.Descripcion_1}}</p>
+          <p class="m-1" [ngStyle]="{'color': widget.Color_descripcion_2}">{{widget.Descripcion_2}}</p>
+          <p class="m-1" [ngStyle]="{'color': widget.Color_descripcion_3}">{{widget.Descripcion_3}}</p>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+</div>

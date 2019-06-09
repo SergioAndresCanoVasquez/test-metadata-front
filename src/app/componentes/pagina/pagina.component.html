@@ -1,0 +1,7 @@
+<div [ngClass]="{'inactive': !activa}" class="container-fluid animated fadeIn">
+  <div class="row" *ngFor="let seccion of pagina.listaSecciones; let i = index">
+    <div class="col">
+      <app-seccion [seccion]="seccion" [numeroPagina]="numeroPagina" [numeroSeccion]="i"></app-seccion>
+    </div>
+  </div>
+</div>
