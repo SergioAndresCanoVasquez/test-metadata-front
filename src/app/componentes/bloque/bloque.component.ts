@@ -1,18 +1,18 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-seccion',
-  templateUrl: './seccion.component.html',
-  styleUrls: ['./seccion.component.scss']
+  selector: 'app-bloque',
+  templateUrl: './bloque.component.html',
+  styleUrls: ['./bloque.component.scss']
 })
-export class SeccionComponent implements OnInit {
+export class BloqueComponent implements OnInit {
 
   @Input()
-  public seccion: ListaSeccione;
+  public bloque: Listabloque;
   @Input()
   public numeroPagina: number;
   @Input()
-  public numeroSeccion: number;
+  public numeroBloque: number;
 
   public widgets: ListaWidget[];
 
@@ -27,8 +27,13 @@ export class SeccionComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.widgets = this.seccion.listaWidgets;
-    this.llenarPosiciones(this.widgets)
+    console.log(this.bloque);
+    console.log(this.numeroPagina);
+    console.log(this.numeroBloque);
+    this.widgets = this.bloque.listaWidgets;
+    if(this.bloque.tipo === 'bloque_1_3'){
+      this.llenarPosiciones(this.widgets)
+    }
   }
 
   llenarPosiciones(widgets: ListaWidget[]) {
@@ -45,9 +50,6 @@ export class SeccionComponent implements OnInit {
           break;
         case 4:
           this.widgetsPosicion4 = widget;
-          break;
-
-        default:
           break;
       }
     }

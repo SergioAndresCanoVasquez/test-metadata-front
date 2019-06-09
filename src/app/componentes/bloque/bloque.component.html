@@ -1,12 +1,17 @@
 <div class="container-fluid animated fadeIn">
 
-  <div class="row" *ngIf="numeroPagina == 0 && numeroSeccion == 0">
+  <div class="row" *ngIf="bloque.tipo === 'bloque_1_3'">
     <div class="col">
       <div class="card h-100 w-100">
         <div class="card-header text-left">
-          {{seccion.titulo}}
+          {{bloque.titulo}}
         </div>
         <div class="card-body">
+          <div class="row">
+            <div class="col border-bottom">
+              <app-constructor-widget [tipoWidget]="widgetsPosicion2"></app-constructor-widget>
+            </div>
+          </div>
           <div class="row">
             <div class="col-2 border-right">
               <app-constructor-widget [tipoWidget]="widgetsPosicion1"></app-constructor-widget>
@@ -31,20 +36,10 @@
           </div>
         </div>
       </div>
-
-      <div class="card" *ngIf="numeroPagina == 0 && numeroSeccion > 0">
-        <div class="card-header text-left">
-          {{seccion.titulo}}
-        </div>
-        <div class="card-body">
-            <app-constructor-widget [tipoWidget]="widgetsPosicion4"></app-constructor-widget>
-        </div>
-      </div>
-
     </div>
   </div>
 
-  <div class="row" *ngIf="numeroPagina == 1">
+  <div class="row" *ngIf="bloque.tipo === 'bloque_invisible'">
     <div class="col" *ngFor="let widget of widgets">
       <app-constructor-widget [tipoWidget]="widget"></app-constructor-widget>
     </div>

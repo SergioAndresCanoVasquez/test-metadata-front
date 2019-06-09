@@ -41,10 +41,7 @@ export class WidgetBarraComponent implements OnInit {
         },
       ]
       this.barChartData.push(data);
-      console.log(data);
     }
-    console.log(this.widgets);
-    console.log(this.barChartData);
   }
 
 }

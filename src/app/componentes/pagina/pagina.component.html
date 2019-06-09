@@ -1,7 +1,7 @@
 <div [ngClass]="{'inactive': !activa}" class="container-fluid animated fadeIn">
-  <div class="row" *ngFor="let seccion of pagina.listaSecciones; let i = index">
+  <div class="row" *ngFor="let bloque of pagina.listabloques; let i = index">
     <div class="col">
-      <app-seccion [seccion]="seccion" [numeroPagina]="numeroPagina" [numeroSeccion]="i"></app-seccion>
+      <app-bloque [bloque]="bloque" [numeroPagina]="numeroPagina" [numeroBloque]="i"></app-bloque>
     </div>
   </div>
 </div>

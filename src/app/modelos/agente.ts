@@ -34,12 +34,13 @@ interface ListaPagina {
   id: string;
   nombre: string;
   icono: string;
-  listaSecciones: ListaSeccione[];
+  listabloques: Listabloque[];
 }
 
-interface ListaSeccione {
+interface Listabloque {
   id: string;
   titulo: string;
+  tipo: string;
   expandido: boolean;
   listaWidgets: ListaWidget[];
 }

@@ -12,13 +12,13 @@ import { ContenedorSecundarioComponent } from './componentes/contenedor-secundar
 import { EncabezadoComponent } from './componentes/encabezado/encabezado.component';
 import { PaginaComponent } from './componentes/pagina/pagina.component';
 import { ConstructorWidgetComponent } from './componentes/constructor-widget/constructor-widget.component';
-import { SeccionComponent } from './componentes/seccion/seccion.component';
 import { WidgetDatoComponent } from './componentes/widgets/widget-dato/widget-dato.component';
 import { ModalComponent } from './componentes/modal/modal.component';
 import { WidgetMetaComponent } from './componentes/widgets/widget-meta/widget-meta.component';
 import { WidgetPodioComponent } from './componentes/widgets/widget-podio/widget-podio.component';
 import { WidgetBarraComponent } from './componentes/widgets/widget-barra/widget-barra.component';
 import { WidgetProductoComponent } from './componentes/widgets/widget-producto/widget-producto.component';
+import { BloqueComponent } from './componentes/bloque/bloque.component';
 
 @NgModule({
   declarations: [
@@ -30,13 +30,13 @@ import { WidgetProductoComponent } from './componentes/widgets/widget-producto/w
     EncabezadoComponent,
     PaginaComponent,
     ConstructorWidgetComponent,
-    SeccionComponent,
     WidgetDatoComponent,
     ModalComponent,
     WidgetMetaComponent,
     WidgetPodioComponent,
     WidgetBarraComponent,
-    WidgetProductoComponent
+    WidgetProductoComponent,
+    BloqueComponent
   ],
   imports: [
     BrowserModule,
