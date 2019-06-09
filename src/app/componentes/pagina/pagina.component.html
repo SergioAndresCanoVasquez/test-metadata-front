@@ -1,5 +1,5 @@
 <div [ngClass]="{'inactive': !activa}" class="container-fluid animated fadeIn">
-  <div class="row" *ngFor="let bloque of pagina.listabloques; let i = index">
+  <div class="row" *ngFor="let bloque of bloques; let i = index">
     <div class="col">
       <app-bloque [bloque]="bloque" [numeroPagina]="numeroPagina" [numeroBloque]="i"></app-bloque>
     </div>

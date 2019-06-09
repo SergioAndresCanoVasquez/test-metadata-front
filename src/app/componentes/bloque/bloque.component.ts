@@ -21,17 +21,14 @@ export class BloqueComponent implements OnInit {
   public widgetsPosicion3: ListaWidget;
   public widgetsPosicion4: ListaWidget;
 
-
-
   constructor() {
   }
 
   ngOnInit() {
     console.log(this.bloque);
-    console.log(this.numeroPagina);
-    console.log(this.numeroBloque);
+    console.log(' Página: ' + (this.numeroPagina + 1).toString() + ' Bloque: ' + (this.numeroBloque + 1).toString());
     this.widgets = this.bloque.listaWidgets;
-    if(this.bloque.tipo === 'bloque_1_3'){
+    if (this.bloque.tipo === 'bloque_1_3') {
       this.llenarPosiciones(this.widgets)
     }
   }
@@ -52,6 +49,14 @@ export class BloqueComponent implements OnInit {
           this.widgetsPosicion4 = widget;
           break;
       }
+    }
+  }
+
+  expandirBloque() {
+    if (this.bloque.expandido) {
+      this.bloque.expandido = false;
+    }else{
+      this.bloque.expandido = true;
     }
   }
 

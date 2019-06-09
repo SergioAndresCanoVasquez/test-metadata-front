@@ -17,9 +17,12 @@ export class PaginaComponent implements OnInit {
   @Input()
   public numeroPagina: number;
 
+  public bloques: Listabloque[];
+
   constructor() { }
 
   ngOnInit() {
+    this.bloques = this.pagina.listabloques;
   }
 
 }
