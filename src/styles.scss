@@ -1,8 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+}
 
-.inactive{
+.inactive {
   display: none !important;
+}
+.card {
+  -webkit-box-shadow: 9px 9px 8px -7px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 9px 9px 8px -7px rgba(0, 0, 0, 0.59);
+  box-shadow: 9px 9px 8px -7px rgba(0, 0, 0, 0.59);
 }
