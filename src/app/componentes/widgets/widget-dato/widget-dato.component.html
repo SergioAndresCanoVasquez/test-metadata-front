@@ -1,35 +1,32 @@
-<div class="modal fade" id="modalWidgetDato" tabindex="-1" role="dialog"
-  aria-labelledby="modalWidgetDatoLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <div class="col-11">
-          <p class="font-weight-bold"><i class="fa fa-user"></i>&nbsp;&nbsp;{{tituloModal}}</p>
-        </div>
-        <div class="col-1">
-          <a href="#" data-toggle="modal" data-target="#modalWidgetDato" class="text-right">
-            <i class="fa fa-times"></i>
-          </a>
-        </div>
+<!-- Ng Bootstrap modal -->
+<ng-template #content let-modal>
+    <div class="modal-header">
+      <div class="col-11">
+        <p class="font-weight-bold"><i class="fa fa-user"></i>&nbsp;&nbsp;{{tituloModal}}</p>
       </div>
-      <div class="modal-body">
-        <div class="row">
-          <div class="col">
-            <table class="table table-borderless table-hover table-sm">
-              <tbody>
-                <tr *ngFor="let itemModal of itemsModal" class="border-bottom"
-                  [ngClass]="{'highlighted': itemModal.Resaltado}">
-                  <td>{{itemModal.Descripcion}}</td>
-                  <td>{{itemModal.Valor}}</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+      <div class="col-1">
+        <a href="#" (click)="modal.close('Close click')" class="text-right">
+          <i class="fa fa-times"></i>
+        </a>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col">
+          <table class="table table-borderless table-hover table-sm">
+            <tbody>
+              <tr *ngFor="let itemModal of itemsModal" class="border-bottom"
+                [ngClass]="{'highlighted': itemModal.Resaltado}">
+                <td>{{itemModal.Descripcion}}</td>
+                <td>{{itemModal.Valor}}</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </ng-template>
+
 <div class="row">
   <div class="col-lg-6 col-md-6" *ngFor="let widget of widgets; let i = index;">
     <div class="card font-weight-light">
@@ -41,7 +38,7 @@
           </div>
           <div class="col-1 text-right">
             <a href="#" data-toggle="modal" data-target="#modalWidgetDato" class="text-right"
-              (click)="showWidgetDatoInModal(i)"><i class="fa fa-expand fa-sm"></i></a>
+              (click)="showWidgetDatoInModal(i,content)"><i class="fa fa-expand fa-sm"></i></a>
           </div>
         </div>
         <div class="row">
