@@ -1,0 +1,31 @@
+<div class="card" *ngFor="let widget of widgets">
+  <div class="card-body">
+    <h5 class="widget-indicator-cot-title" [style.color]='widget.color1'>{{widget.titulo}}</h5>
+    <div class="card-container widget-indicator-cot">
+      <div class="widget-indicator-cot-properties">
+        <p class="widget-indicator-cot-big-item">{{widget.indicador}}</p>
+        <div class="widget-indicator-cot-down-container">
+          <p class="widget-indicator-cot-text m-top">
+            <span>
+              {{widget.Etiqueta1}}
+            </span>
+            <span>
+              {{widget.Valor1}}
+            </span>
+          </p>
+          <p class="widget-indicator-cot-text">
+            <span>
+              {{widget.Etiqueta2}}
+            </span>
+            <span>
+              {{widget.Valor2}}
+            </span>
+          </p>
+        </div>
+      </div>
+      <div class="image-div-container" *ngIf="widget.imagenUrl">
+        <img [src]="widget.imagenUrl" class="product">
+      </div>
+    </div>
+  </div>
+</div>

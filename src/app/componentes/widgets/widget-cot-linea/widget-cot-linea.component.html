@@ -1,0 +1,65 @@
+<div class="row">
+  <div class="col-6" *ngFor="let widget of widgets; let i = index">
+    <div class="">
+      <div class="card-body p-2">
+        <div class="row">
+          <div class="col">
+            <div class="card animated fadeIn delay-0.5s">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="widget-indicator-cot-title" [style.color]='widget.color1'>{{widget.titulo}}</h5>
+                  <div class="card-container widget-indicator-cot">
+                    <div class="widget-indicator-cot-properties">
+                      <p class="widget-indicator-cot-big-item">{{widget.indicador}}</p>
+                      <div class="widget-indicator-cot-down-container">
+                        <p class="widget-indicator-cot-text m-top">
+                          <span>
+                            {{widget.Etiqueta1}}
+                          </span>
+                          <span>
+                            {{widget.Valor1}}
+                          </span>
+                        </p>
+                        <p class="widget-indicator-cot-text">
+                          <span>
+                            {{widget.Etiqueta2}}
+                          </span>
+                          <span>
+                            {{widget.Valor2}}
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="image-div-container" *ngIf="widget.imagenUrl">
+                      <img [src]="widget.imagenUrl" class="product">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card animated fadeIn delay-0.5s">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <h6 class="text-muted">{{widget.Titulo_Linea}}</h6>
+                  </div>
+                </div>
+                <div>
+                  <canvas baseChart [datasets]="barChartDataLinea[i]" [labels]="barChartLabelsLinea[i]"
+                    [legend]="barChartLegendLinea" [chartType]="barChartTypeLinea" [options]="barChartOptionsLinea">
+                  </canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+</div>

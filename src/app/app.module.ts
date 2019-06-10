@@ -21,6 +21,8 @@ import { WidgetProductoComponent } from './componentes/widgets/widget-producto/w
 import { BloqueComponent } from './componentes/bloque/bloque.component';
 import { WidgetDonaComponent } from './componentes/widgets/widget-dona/widget-dona.component';
 import { WidgetDonaLineaComponent } from './componentes/widgets/widget-dona-linea/widget-dona-linea.component';
+import { WidgetCotLineaComponent } from './componentes/widgets/widget-cot-linea/widget-cot-linea.component';
+import { WidgetCotComponent } from './componentes/widgets/widget-cot/widget-cot.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { WidgetDonaLineaComponent } from './componentes/widgets/widget-dona-line
     WidgetProductoComponent,
     BloqueComponent,
     WidgetDonaComponent,
-    WidgetDonaLineaComponent
+    WidgetDonaLineaComponent,
+    WidgetCotLineaComponent,
+    WidgetCotComponent
   ],
   imports: [
     BrowserModule,

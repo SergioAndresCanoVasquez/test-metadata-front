@@ -41,4 +41,19 @@
       <app-widget-dona-linea [widgets]="listaWidgets"></app-widget-dona-linea>
     </div>
   </div>
+
+  <!-- Constructor para el widget tipo indicador cot lineas -->
+  <div class="row" *ngIf="tipoWidget.tipo === 'indicadorcotlineas'">
+    <div class="col">
+      <app-widget-cot-linea [widgets]="listaWidgets"></app-widget-cot-linea>
+    </div>
+  </div>
+
+  <!-- Constructor para el widget tipo indicador cot lineas -->
+  <div class="row" *ngIf="tipoWidget.tipo === 'indicadorcot'">
+    <div class="col">
+      <app-widget-cot [widgets]="listaWidgets"></app-widget-cot>
+    </div>
+  </div>
+
 </div>
