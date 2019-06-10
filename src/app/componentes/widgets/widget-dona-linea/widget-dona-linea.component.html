@@ -1,0 +1,58 @@
+<div class="row">
+  <div class="col-6" *ngFor="let widget of widgets; let i = index">
+    <div class="">
+      <div class="card-body p-2">
+        <div class="row">
+          <div class="col">
+              <div class="card animated fadeIn delay-0.5s">
+                <div class="widget-donut-title row" [style.color]='widget.Color_titulo'>
+                  {{widget.Titulo}}
+                </div>
+                <div class="content">
+                  <div class="widget-donut-big-number" [style.color]='widget.Color_Valor_Enfasis'>{{widget.Valor_Enfasis}}</div>
+                  <div class="product-image-donut" *ngIf='widget.IconoGrafica'>
+                    <img class="image-product-tag" [src]="widget.IconoGrafica">
+                  </div>
+                  <div class="canvas-div">
+                    <canvas baseChart [datasets]="barChartDataDona[i]" [labels]="barChartLabelsDona[i]" [options]="barChartOptionsDona"
+                      [legend]="barChartLegendDona" [chartType]="widget.Tipo_de_Dona">
+                    </canvas>
+                  </div>
+                  <div class="description-container">
+                    <div class="left-data">
+                      <h5 class="description-title" [style.color]='widget.Color_descripcion1'>{{widget.Descripcion1}}</h5>
+                      <p class="description-p" [style.color]='widget.Color_descripcion2'>{{widget.Descripcion2}}</p>
+                    </div>
+                    <div class="right-data">
+                      <h5 class="description-title" [style.color]='widget.Color_descripcion3'>{{widget.Descripcion3}}</h5>
+                      <p class="description-p" [style.color]='widget.Color_descripcion4'>{{widget.Descripcion4}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card animated fadeIn delay-0.5s">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <h6 class="text-muted">{{widget.Titulo_Linea}}</h6>
+                  </div>
+                </div>
+                <div>
+                  <canvas baseChart [datasets]="barChartDataLinea[i]" [labels]="barChartLabelsLinea[i]" [legend]="barChartLegendLinea"
+                    [chartType]="barChartTypeLinea" [options]="barChartOptionsLinea">
+                  </canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+</div>

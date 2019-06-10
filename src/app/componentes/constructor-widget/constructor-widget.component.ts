@@ -16,6 +16,8 @@ export class ConstructorWidgetComponent implements OnInit {
 
   ngOnInit() {
     this.listaWidgets = this.tipoWidget.lista;
+    console.log(this.tipoWidget);
+    console.log(this.listaWidgets);
   }
 
 }

@@ -35,4 +35,10 @@
     </div>
   </div>
 
+  <!-- Constructor para el widget tipo donas lineas -->
+  <div class="row" *ngIf="tipoWidget.tipo === 'donaslineas'">
+    <div class="col">
+      <app-widget-dona-linea [widgets]="listaWidgets"></app-widget-dona-linea>
+    </div>
+  </div>
 </div>

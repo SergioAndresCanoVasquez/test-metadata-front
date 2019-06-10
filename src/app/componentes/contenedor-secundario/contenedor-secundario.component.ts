@@ -7,6 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ContenedorSecundarioComponent implements OnInit {
 
+
+
   public data: Data;
   public paginas: ListaPagina[];
 

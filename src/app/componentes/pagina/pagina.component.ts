@@ -12,6 +12,8 @@ export class PaginaComponent implements OnInit {
   public pagina: ListaPagina;
 
   @Input()
+
+
   public activa: boolean;
 
   @Input()

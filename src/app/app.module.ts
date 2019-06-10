@@ -19,6 +19,8 @@ import { WidgetPodioComponent } from './componentes/widgets/widget-podio/widget-
 import { WidgetBarraComponent } from './componentes/widgets/widget-barra/widget-barra.component';
 import { WidgetProductoComponent } from './componentes/widgets/widget-producto/widget-producto.component';
 import { BloqueComponent } from './componentes/bloque/bloque.component';
+import { WidgetDonaComponent } from './componentes/widgets/widget-dona/widget-dona.component';
+import { WidgetDonaLineaComponent } from './componentes/widgets/widget-dona-linea/widget-dona-linea.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { BloqueComponent } from './componentes/bloque/bloque.component';
     WidgetPodioComponent,
     WidgetBarraComponent,
     WidgetProductoComponent,
-    BloqueComponent
+    BloqueComponent,
+    WidgetDonaComponent,
+    WidgetDonaLineaComponent
   ],
   imports: [
     BrowserModule,

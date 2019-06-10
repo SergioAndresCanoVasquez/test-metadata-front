@@ -16,13 +16,30 @@ export class WidgetBarraComponent implements OnInit {
   public barChartLegend = false;
   public barChartOptions = {
     responsive: true,
-    // We use these empty structures as placeholders for dynamic theming.
-    scales: { xAxes: [{}], yAxes: [{}] },
-    plugins: {
-      datalabels: {
-        anchor: 'end',
-        align: 'end',
-      }
+    tooltips: {
+      enabled: true
+    },
+    scales: {
+      xAxes: [{
+        gridLines:
+        {
+          display: false
+        },
+        ticks: {
+          fontSize: 10,
+          beginAtZero: true
+        }
+      }], yAxes: [{
+        gridLines:
+        {
+          drawTicks: false
+        },
+        ticks: {
+          fontSize: 9,
+          padding: 10,
+          beginAtZero: true
+        }
+      }]
     }
   };
 
