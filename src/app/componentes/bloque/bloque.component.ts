@@ -25,8 +25,6 @@ export class BloqueComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log(this.bloque);
-    console.log(' Página: ' + (this.numeroPagina + 1).toString() + ' Bloque: ' + (this.numeroBloque + 1).toString());
     this.widgets = this.bloque.listaWidgets;
     if (this.bloque.tipo === 'bloque_1_3') {
       this.llenarPosiciones(this.widgets)

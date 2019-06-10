@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { ChartsModule } from 'ng2-charts';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -23,6 +24,7 @@ import { WidgetDonaComponent } from './componentes/widgets/widget-dona/widget-do
 import { WidgetDonaLineaComponent } from './componentes/widgets/widget-dona-linea/widget-dona-linea.component';
 import { WidgetCotLineaComponent } from './componentes/widgets/widget-cot-linea/widget-cot-linea.component';
 import { WidgetCotComponent } from './componentes/widgets/widget-cot/widget-cot.component';
+import { WidgetImagenComponent } from './componentes/widgets/widget-imagen/widget-imagen.component';
 
 @NgModule({
   declarations: [
@@ -44,13 +46,15 @@ import { WidgetCotComponent } from './componentes/widgets/widget-cot/widget-cot.
     WidgetDonaComponent,
     WidgetDonaLineaComponent,
     WidgetCotLineaComponent,
-    WidgetCotComponent
+    WidgetCotComponent,
+    WidgetImagenComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ChartsModule
+    ChartsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -10,7 +10,6 @@ export class WidgetDatoComponent implements OnInit {
   @Input()
   public widgets: Lista[];
 
-  @Output()
   public itemsModal: ListaItem[];
   public tituloModal: string;
 

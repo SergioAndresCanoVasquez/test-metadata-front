@@ -58,7 +58,6 @@ export class WidgetDonaLineaComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.widgets);
     for (let datosWidget of this.widgets) {
       var dataLine: ChartDataSets[] = [
         {
@@ -98,10 +97,6 @@ export class WidgetDonaLineaComponent implements OnInit {
       this.barChartLabelsDona.push(labelsDona);
       this.barChartDataDona.push(dataDona);
     }
-    console.log(this.barChartLabelsDona);
-    console.log(this.barChartDataDona);
-    console.log(this.barChartLabelsLinea);
-    console.log(this.barChartDataLinea);
   }
 
 }

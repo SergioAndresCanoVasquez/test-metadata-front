@@ -56,4 +56,12 @@
     </div>
   </div>
 
+
+  <!-- Constructor para el widget tipo imagen -->
+  <div class="row" *ngIf="tipoWidget.tipo === 'imagen'">
+      <div class="col">
+        <app-widget-imagen [widgets]="listaWidgets"></app-widget-imagen>
+      </div>
+    </div>
+
 </div>

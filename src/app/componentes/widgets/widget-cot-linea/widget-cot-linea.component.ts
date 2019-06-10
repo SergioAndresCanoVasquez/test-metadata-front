@@ -50,7 +50,6 @@ export class WidgetCotLineaComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.widgets);
     for (let datosWidget of this.widgets) {
       var dataLine: ChartDataSets[] = [
         {
@@ -76,8 +75,6 @@ export class WidgetCotLineaComponent implements OnInit {
       this.barChartLabelsLinea.push(labelsLine);
       this.barChartDataLinea.push(dataLine);
     }
-    console.log(this.barChartLabelsLinea);
-    console.log(this.barChartDataLinea);
   }
 
 
