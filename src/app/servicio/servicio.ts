@@ -19,9 +19,12 @@ export class Servicio {
 
   constructor(private http: HttpClient) { }
 
+  // https://tpmetadataback.azurewebsites.net/api/MetaData/GetMetadataDb?assesor=123456&client=9876&appCodigo=123&ClienteFinal=SABMiller&ciudad=Medellin&campana=123
+
   public getData(): Observable<Data> {
-    // return this.http.get<Data>(`${this.url}/GetMetadata?assesor=123456&client=9876&appCodigo=123&ClienteFinal=SABMiller&ciudad=Medellin&campana=123`).pipe(catchError(err => of(err)));
-    return this.http.get<Agente>("../../assets/data.json").pipe(catchError(err => of(err)));
+    return this.http.get<Data>(`${this.url}/GetMetadata?assesor=123456&client=9876&appCodigo=123&ClienteFinal=SABMiller&ciudad=Medellin&campana=123`).pipe(catchError(err => of(err)));
+    // return this.http.get<Data>(`${this.url}/GetMetadataDb?assesor=123456&client=9876&appCodigo=123&ClienteFinal=SABMiller&ciudad=Medellin&campana=123`).pipe(catchError(err => of(err)));
+    // return this.http.get<Agente>("../../assets/data.json").pipe(catchError(err => of(err)));
   }
 
 }

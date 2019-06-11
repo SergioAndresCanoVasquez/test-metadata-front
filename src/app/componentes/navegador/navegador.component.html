@@ -1,7 +1,12 @@
-<div class="container-fluid animated fadeIn">
-  <ul class="nav nav-tabs justify-content-center">
+<div class="container-fluid m-0 p-0 animated fadeIn">
+  <ul class="nav justify-content-center">
     <li class="nav-item" *ngFor="let pagina of paginas; let i = index;">
-      <a [ngClass]="{'active': i == 0}" (click)="paginaMostrar($event)" [name]="i" href="#" class="nav-link">{{pagina.nombre}}</a>
+      <a *ngIf="i == 0" [ngClass]="{'active': i == 0}" (click)="paginaMostrar($event)" [name]="i" class="nav-link">
+        <i class="fa fa-home fa-lg"></i>
+      </a>
+      <a *ngIf="i > 0" [ngClass]="{'active': i == 0}" (click)="paginaMostrar($event)" [name]="i" class="nav-link">
+        {{pagina.nombre}}
+      </a>
     </li>
   </ul>
 </div>

@@ -1,11 +1,11 @@
 <!-- Ng Bootstrap modal -->
 <ng-template #content let-modal>
     <div class="modal-header">
-      <div class="col-11">
+      <div class="col text-left">
         <p class="font-weight-bold"><i class="fa fa-user"></i>&nbsp;&nbsp;{{tituloModal}}</p>
       </div>
-      <div class="col-1">
-        <a href="#" (click)="modal.close('Close click')" class="text-right">
+      <div class="col text-right">
+        <a (click)="modal.close('Close click')" class="text-right">
           <i class="fa fa-times"></i>
         </a>
       </div>

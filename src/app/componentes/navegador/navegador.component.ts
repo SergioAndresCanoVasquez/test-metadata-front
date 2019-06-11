@@ -23,11 +23,21 @@ export class NavegadorComponent implements OnInit {
   }
 
   paginaMostrar(event: any) {
-    this.mostrarPagina.emit(parseInt(event.target.name));
     this.botonesPagina = document.getElementsByClassName('nav-link');
+    if(event.target.name === undefined){
+      this.mostrarPagina.emit(parseInt(event.target.parentElement.name));
+    }else{
+      this.mostrarPagina.emit(parseInt(event.target.name));
+    }
     Array.prototype.forEach.call(this.botonesPagina, function (tag) {
-      if (tag.name === event.target.name) {
-        tag.className = 'nav-link active'
+      if (event.target.className === 'fa fa-home fa-lg') {
+        if (tag.name === event.target.parentElement.name) {
+          tag.className = 'nav-link active';
+        } else {
+          tag.className = 'nav-link';
+        }
+      }else if (tag.name === event.target.name) {
+        tag.className = 'nav-link active';
       } else {
         tag.className = 'nav-link'
       }
