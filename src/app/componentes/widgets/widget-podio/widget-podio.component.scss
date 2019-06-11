@@ -1,0 +1,101 @@
+.card {
+  height: 12rem;
+  width: 14rem;
+}
+
+.card-body {
+  padding: 0.2rem;
+ }
+
+.card-title {
+  font-weight: bold;
+  color: #00af9b;
+  padding: 0.2rem 0 0 0.2rem;
+}
+
+.podio {
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.first-place {
+  width: 30%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.3);
+  animation: animate 1 1s;
+  transition: 4ms;
+}
+
+.second-place {
+  width: 30%;
+  height: 60%;
+  background-color: rgba(0, 0, 0, 0.3);
+  animation: animate 1 1s;
+}
+
+.third-place {
+  width: 30%;
+  height: 40%;
+  background-color: rgba(0, 0, 0, 0.3);
+  animation: animate 1 1s;
+}
+
+.cuantity-third-place {
+  color: black;
+  font-weight: bold;
+  font-size: 0.7rem;
+  transform: translate(0px, -20px);
+  text-align: center;
+}
+
+.cuantity-first-place {
+  color: black;
+  font-weight: bold;
+  font-size: 0.7rem;
+  transform: translate(0px, -20px);
+  text-align: center;
+}
+
+.cuantity-second-place {
+  color: black;
+  font-weight: bold;
+  font-size: 0.7rem;
+  transform: translate(0px, -20px);
+  text-align: center;
+}
+
+.podio div div:nth-child(2){
+  font-size: 0.7rem;
+  color: white;
+}
+
+.active {
+  opacity: 1;
+  background-color: #ff3078;
+}
+
+@keyframes animate {
+  0% {
+    height: 0;
+    /* height: 0%; */
+  }
+
+  100% {
+    top: 0%;
+    /* height: 100%; */
+  }
+}
+
+@media (max-width: 400px) {
+  .podio-container {
+    z-index: -1;
+    display: flex;
+    width: 18rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .for-of-podios {
+    padding: 0 1rem 0 1rem;
+  }
+}
