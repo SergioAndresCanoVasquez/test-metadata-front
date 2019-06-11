@@ -16,6 +16,5 @@ export class ContenedorPrincipalComponent implements OnInit {
 
   paginaMostrar(numeroPagina) {
     this.mostrarPagina = numeroPagina;
-    console.log(numeroPagina);
   }
 }

@@ -17,8 +17,8 @@
             <tbody>
               <tr *ngFor="let itemModal of itemsModal" class="border-bottom"
                 [ngClass]="{'highlighted': itemModal.Resaltado}">
-                <td>{{itemModal.Descripcion}}</td>
-                <td>{{itemModal.Valor}}</td>
+                <td [innerHTML]="itemModal.Descripcion"></td>
+                <td [innerHTML]="itemModal.Valor"></td>
               </tr>
             </tbody>
           </table>
@@ -47,8 +47,8 @@
               <tbody>
                 <tr *ngFor="let widgetItem of widget.listaItems.slice(0,3);" class="border-bottom"
                   [ngClass]="{'highlighted': widgetItem.Resaltado}">
-                  <td>{{widgetItem.Descripcion}}</td>
-                  <td>{{widgetItem.Valor}}</td>
+                  <td [innerHTML]="widgetItem.Descripcion"></td>
+                  <td [innerHTML]="widgetItem.Valor"></td>
                 </tr>
               </tbody>
             </table>

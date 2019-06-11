@@ -16,9 +16,6 @@ export class WidgetDatoComponent implements OnInit {
   public itemsModal: ListaItem[];
   public tituloModal: string;
 
-  // Ng Bootstrap modal
-  closeResult: string;
-
   constructor(private modalService: NgbModal) { }
 
   ngOnInit() {
@@ -29,6 +26,6 @@ export class WidgetDatoComponent implements OnInit {
   showWidgetDatoInModal(index: number, content) {
     this.itemsModal = this.widgets[index].listaItems;
     this.tituloModal = this.widgets[index].Tema_Descripcion;
-    this.modalService.open(content, { centered: true, size: 'lg', windowClass: 'animated fadeIn' });
+    this.modalService.open(content, { size: 'lg', windowClass: 'animated fadeIn' });
   }
 }
