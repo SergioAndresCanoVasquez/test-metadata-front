@@ -1,9 +1,20 @@
 a{
   color: black !important;
+  border-bottom: #ffffff solid 1.5px;
+  font-weight: 300;
+  transition: 1s;
+}
+a:hover{
+  color: #780096 !important;
+  border-bottom: #00AF9B solid 1.5px;
+  font-weight: 400;
 }
 .active{
-  color: #e8428c !important;
+  color: #780096 !important;
+  border-bottom: #00AF9B solid 1.5px;
+  font-weight: 400;
 }
+
 .container-fluid{
   -webkit-box-shadow: 9px 9px 8px -7px rgba(0, 0, 0, 0.59);
   -moz-box-shadow: 9px 9px 8px -7px rgba(0, 0, 0, 0.59);

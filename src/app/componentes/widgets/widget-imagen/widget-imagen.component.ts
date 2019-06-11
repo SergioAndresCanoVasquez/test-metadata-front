@@ -19,9 +19,6 @@ export class WidgetImagenComponent implements OnInit {
 
   constructor(config: NgbCarouselConfig) {
     config.interval = 3000;
-    config.wrap = false;
-    config.keyboard = false;
-    config.pauseOnHover = false;
   }
 
   ngOnInit() {

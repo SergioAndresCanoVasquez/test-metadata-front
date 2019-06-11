@@ -1,11 +1,11 @@
 <div class="animated fadeIn delay-0.5s" *ngIf="imagenes">
-  <!-- <ngb-carousel [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+  <ngb-carousel [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
     <ng-template ngbSlide *ngFor="let imagen of imagenes">
-      <img [src]="imagen.imagenUrl" class="rounded mx-auto d-block" alt="Random slide">
+      <img [src]="imagen.imagenUrl" class="rounded mx-auto d-block animated fadeIn" alt="Random slide">
       <div class="carousel-caption">
         <h3>{{imagen.titulo}}</h3>
         <p>{{imagen.descripcion}}</p>
       </div>
     </ng-template>
-  </ngb-carousel> -->
+  </ngb-carousel>
 </div>

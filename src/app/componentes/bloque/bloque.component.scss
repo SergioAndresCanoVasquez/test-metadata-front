@@ -1,4 +1,9 @@
 .card-header, .card-header a{
   background-color: #00AF9B;
   color: white !important;
+  transition: 0.3s !important;
+}
+
+.card-header a:hover{
+  color: #780096 !important;
 }
