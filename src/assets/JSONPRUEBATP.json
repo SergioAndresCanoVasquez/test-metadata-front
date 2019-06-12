@@ -1,0 +1,1047 @@
+{
+    "agente": {
+        "id": "123456",
+        "puntos": 5200,
+        "posicion": 1,
+        "rol": "Agente",
+        "listaClientes": [
+            {
+                "cliente": "SABMiller2",
+                "listaClientesInternos": [
+                    {
+                        "nombre": "Tienda-Godoy Victoria",
+                        "codigoCliente": "10279038",
+                        "administrador": "Godoy Godoy, Victoria Leina",
+                        "cargo": "Agente",
+                        "ciudad": "Medellin",
+                        "listaPaginas": [
+                            {
+                                "id": 62,
+                                "nombre": "Agente",
+                                "icono": "",
+                                "listabloques": [
+                                    {
+                                        "id": 58,
+                                        "titulo": "Indicadores del mes",
+                                        "tipo": "bloque_sencillo",
+                                        "expandido": true,
+                                        "listaWidgets": [
+                                            {
+                                                "tipo": "donalineas",
+                                                "posicion": 0,
+                                                "lista": [
+                                                    {
+                                                        "Titulo": "Meta Cerveza 1",
+                                                        "Color_titulo": "#16c1b3",
+                                                        "Valor_Enfasis": 80,
+                                                        "Color_Valor_Enfasis": "#780196",
+                                                        "Descripcion1": "Meta:",
+                                                        "Color_descripcion1": "#16c1b3",
+                                                        "Descripcion2": "108 Htls",
+                                                        "Color_descripcion2": "#66C653",
+                                                        "Descripcion3": "Real",
+                                                        "Color_descripcion3": "#16c1b3",
+                                                        "Descripcion4": "69,3 Htls",
+                                                        "Color_descripcion4": "#9B4A4A",
+                                                        "IconoGrafica": "stella-artois.png",
+                                                        "Color_MayorDona": "#4B2C93",
+                                                        "Color_MenorDona": "#C66053",
+                                                        "Tipo_de_Dona": "pie",
+                                                        "Titulo_Linea": "Linea 1",
+                                                        "Color_Titulo_Liena": "#361B17",
+                                                        "Nombre_Agrupador1": "Enero",
+                                                        "Agrupador1_Valor1": "10",
+                                                        "Nombre_Agrupador2": "Febrero",
+                                                        "Agrupador2_Valor1": "20",
+                                                        "Nombre_Agrupador3": "Marzo",
+                                                        "Agrupador3_Valor1": "30",
+                                                        "Nombre_Agrupador4": "Abril",
+                                                        "Agrupador4_Valor1": "40",
+                                                        "Nombre_Agrupador5": "Mayo",
+                                                        "Agrupador5_Valor1": "50",
+                                                        "Nombre_Agrupador6": "Junio",
+                                                        "Agrupador6_Valor1": "60",
+                                                        "Color_Valor1": "#C66053",
+                                                        "Reducido": 1
+                                                    },
+                                                    {
+                                                        "Titulo": "Meta Cerveza 1",
+                                                        "Color_titulo": "#16c1b3",
+                                                        "Valor_Enfasis": 12,
+                                                        "Color_Valor_Enfasis": "#780196",
+                                                        "Descripcion1": "Meta:",
+                                                        "Color_descripcion1": "#16c1b3",
+                                                        "Descripcion2": "108 Htls",
+                                                        "Color_descripcion2": "#66C653",
+                                                        "Descripcion3": "Real",
+                                                        "Color_descripcion3": "#16c1b3",
+                                                        "Descripcion4": "69,3 Htls",
+                                                        "Color_descripcion4": "#9B4A4A",
+                                                        "IconoGrafica": "stella-artois.png",
+                                                        "Color_MayorDona": "#4B2C93",
+                                                        "Color_MenorDona": "#C66053",
+                                                        "Tipo_de_Dona": "pie",
+                                                        "Titulo_Linea": "Linea 1",
+                                                        "Color_Titulo_Liena": "#361B17",
+                                                        "Nombre_Agrupador1": "Enero",
+                                                        "Agrupador1_Valor1": "10",
+                                                        "Nombre_Agrupador2": "Febrero",
+                                                        "Agrupador2_Valor1": "20",
+                                                        "Nombre_Agrupador3": "Marzo",
+                                                        "Agrupador3_Valor1": "30",
+                                                        "Nombre_Agrupador4": "Abril",
+                                                        "Agrupador4_Valor1": "40",
+                                                        "Nombre_Agrupador5": "Mayo",
+                                                        "Agrupador5_Valor1": "50",
+                                                        "Nombre_Agrupador6": "Junio",
+                                                        "Agrupador6_Valor1": "60",
+                                                        "Color_Valor1": "#C66053",
+                                                        "Reducido": 1
+                                                    },
+                                                    {
+                                                        "Titulo": "Meta Cerveza 1",
+                                                        "Color_titulo": "#16c1b3",
+                                                        "Valor_Enfasis": 36,
+                                                        "Color_Valor_Enfasis": "#780196",
+                                                        "Descripcion1": "Meta:",
+                                                        "Color_descripcion1": "#16c1b3",
+                                                        "Descripcion2": "108 Htls",
+                                                        "Color_descripcion2": "#66C653",
+                                                        "Descripcion3": "Real",
+                                                        "Color_descripcion3": "#16c1b3",
+                                                        "Descripcion4": "69,3 Htls",
+                                                        "Color_descripcion4": "#9B4A4A",
+                                                        "IconoGrafica": "stella-artois.png",
+                                                        "Color_MayorDona": "#4B2C93",
+                                                        "Color_MenorDona": "#C66053",
+                                                        "Tipo_de_Dona": "pie",
+                                                        "Titulo_Linea": "Linea 1",
+                                                        "Color_Titulo_Liena": "#361B17",
+                                                        "Nombre_Agrupador1": "Enero",
+                                                        "Agrupador1_Valor1": "10",
+                                                        "Nombre_Agrupador2": "Febrero",
+                                                        "Agrupador2_Valor1": "20",
+                                                        "Nombre_Agrupador3": "Marzo",
+                                                        "Agrupador3_Valor1": "30",
+                                                        "Nombre_Agrupador4": "Abril",
+                                                        "Agrupador4_Valor1": "40",
+                                                        "Nombre_Agrupador5": "Mayo",
+                                                        "Agrupador5_Valor1": "50",
+                                                        "Nombre_Agrupador6": "Junio",
+                                                        "Agrupador6_Valor1": "60",
+                                                        "Color_Valor1": "#C66053",
+                                                        "Reducido": 1
+                                                    },
+                                                    {
+                                                        "Titulo": "Meta Cerveza 1",
+                                                        "Color_titulo": "#16c1b3",
+                                                        "Valor_Enfasis": 17,
+                                                        "Color_Valor_Enfasis": "#780196",
+                                                        "Descripcion1": "Meta:",
+                                                        "Color_descripcion1": "#16c1b3",
+                                                        "Descripcion2": "108 Htls",
+                                                        "Color_descripcion2": "#66C653",
+                                                        "Descripcion3": "Real",
+                                                        "Color_descripcion3": "#16c1b3",
+                                                        "Descripcion4": "69,3 Htls",
+                                                        "Color_descripcion4": "#9B4A4A",
+                                                        "IconoGrafica": "stella-artois.png",
+                                                        "Color_MayorDona": "#4B2C93",
+                                                        "Color_MenorDona": "#C66053",
+                                                        "Tipo_de_Dona": "pie",
+                                                        "Titulo_Linea": "Linea 1",
+                                                        "Color_Titulo_Liena": "#361B17",
+                                                        "Nombre_Agrupador1": "Enero",
+                                                        "Agrupador1_Valor1": "10",
+                                                        "Nombre_Agrupador2": "Febrero",
+                                                        "Agrupador2_Valor1": "20",
+                                                        "Nombre_Agrupador3": "Marzo",
+                                                        "Agrupador3_Valor1": "30",
+                                                        "Nombre_Agrupador4": "Abril",
+                                                        "Agrupador4_Valor1": "40",
+                                                        "Nombre_Agrupador5": "Mayo",
+                                                        "Agrupador5_Valor1": "50",
+                                                        "Nombre_Agrupador6": "Junio",
+                                                        "Agrupador6_Valor1": "60",
+                                                        "Color_Valor1": "#C66053",
+                                                        "Reducido": 1
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 58,
+                                "nombre": "Home",
+                                "icono": "home.svg",
+                                "listabloques": [
+                                    {
+                                        "id": 53,
+                                        "titulo": "Indicadores del cliente",
+                                        "tipo": "bloque_1_3",
+                                        "expandido": true,
+                                        "listaWidgets": [
+                                            {
+                                                "tipo": "meta",
+                                                "posicion": 1,
+                                                "lista": [
+                                                    {
+                                                        "Titulo": "CERVEZA HTLS 1",
+                                                        "Color_titulo": "#ff0000",
+                                                        "Valor_Enfasis": "140",
+                                                        "Color_Valor_Enfasis": "#ff0000",
+                                                        "Descripcion_1": "Meta: 18",
+                                                        "Color_descripcion_1": "#FF1654",
+                                                        "Descripcion_2": "Cump: 77%",
+                                                        "Color_descripcion_2": "#ff0000",
+                                                        "Descripcion_3": "Mes Ant: 180",
+                                                        "Color_descripcion_3": "#ff0000",
+                                                        "Reducido": 1
+                                                    },
+                                                    {
+                                                        "Titulo": "CERVEZA HTLS 2",
+                                                        "Color_titulo": "#ff0000",
+                                                        "Valor_Enfasis": "140",
+                                                        "Color_Valor_Enfasis": "#ff0000",
+                                                        "Descripcion_1": "Meta: 18",
+                                                        "Color_descripcion_1": "#FF1654",
+                                                        "Descripcion_2": "Cump: 77%",
+                                                        "Color_descripcion_2": "#ff0000",
+                                                        "Descripcion_3": "Mes Ant: 180",
+                                                        "Color_descripcion_3": "#ff0000",
+                                                        "Reducido": 0
+                                                    },
+                                                    {
+                                                        "Titulo": "CERVEZA HTLS 3",
+                                                        "Color_titulo": "#ff0000",
+                                                        "Valor_Enfasis": "140",
+                                                        "Color_Valor_Enfasis": "#ff0000",
+                                                        "Descripcion_1": "Meta: 18",
+                                                        "Color_descripcion_1": "#FF1654",
+                                                        "Descripcion_2": "Cump: 77%",
+                                                        "Color_descripcion_2": "#ff0000",
+                                                        "Descripcion_3": "Mes Ant: 180",
+                                                        "Color_descripcion_3": "#ff0000",
+                                                        "Reducido": 1
+                                                    },
+                                                    {
+                                                        "Titulo": "CERVEZA HTLS 4",
+                                                        "Color_titulo": "#ff0000",
+                                                        "Valor_Enfasis": "140",
+                                                        "Color_Valor_Enfasis": "#ff0000",
+                                                        "Descripcion_1": "Meta: 18",
+                                                        "Color_descripcion_1": "#FF1654",
+                                                        "Descripcion_2": "Cump: 77%",
+                                                        "Color_descripcion_2": "#ff0000",
+                                                        "Descripcion_3": "Mes Ant: 180",
+                                                        "Color_descripcion_3": "#ff0000",
+                                                        "Reducido": 0
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "tipo": "podio",
+                                                "posicion": 2,
+                                                "lista": [
+                                                    {
+                                                        "Titulo": "Cervezas HTLS 1",
+                                                        "Valor1": "$ 200,00",
+                                                        "Valor2": "$ 250,00",
+                                                        "Valor3": "$ 300.000",
+                                                        "Etiqueta1": "350-500 Cajas",
+                                                        "Etiqueta2": "350-500 Cajas",
+                                                        "Etiqueta3": "350-500 Cajas",
+                                                        "Columna_Resaltada": 1,
+                                                        "Color_para_resaltar": "#ff0000",
+                                                        "Reducido": 0
+                                                    },
+                                                    {
+                                                        "Titulo": "Cervezas HTLS 2",
+                                                        "Valor1": "$ 200,00",
+                                                        "Valor2": "$ 250,00",
+                                                        "Valor3": "$ 300.000",
+                                                        "Etiqueta1": "350-500 Cajas",
+                                                        "Etiqueta2": "350-500 Cajas",
+                                                        "Etiqueta3": "350-500 Cajas",
+                                                        "Columna_Resaltada": 2,
+                                                        "Color_para_resaltar": "#F3FFBD",
+                                                        "Reducido": 1
+                                                    },
+                                                    {
+                                                        "Titulo": "Cervezas HTLS 3",
+                                                        "Valor1": "$ 200,00",
+                                                        "Valor2": "$ 250,00",
+                                                        "Valor3": "$ 300.000",
+                                                        "Etiqueta1": "350-500 Cajas",
+                                                        "Etiqueta2": "350-500 Cajas",
+                                                        "Etiqueta3": "350-500 Cajas",
+                                                        "Columna_Resaltada": 3,
+                                                        "Color_para_resaltar": "#247BA0",
+                                                        "Reducido": 0
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "tipo": "barra",
+                                                "posicion": 3,
+                                                "lista": [
+                                                    {
+                                                        "Titulo": "Barra 1",
+                                                        "Color_Titulo": "#8EFF5E",
+                                                        "Color_Valor1": "#FF1654",
+                                                        "Color_Valor2": "#17a2b8",
+                                                        "listaEtiquetas": [
+                                                            "Enero",
+                                                            "Febrero",
+                                                            "Marzo",
+                                                            "Abril",
+                                                            "Mayo",
+                                                            "Junio"
+                                                        ],
+                                                        "listaDatosValor1": [
+                                                            2,
+                                                            5,
+                                                            4,
+                                                            5,
+                                                            2,
+                                                            4
+                                                        ],
+                                                        "listaDatosValor2": [
+                                                            3,
+                                                            6,
+                                                            2,
+                                                            7,
+                                                            5,
+                                                            2
+                                                        ],
+                                                        "Reducido": 1
+                                                    },
+                                                    {
+                                                        "Titulo": "Barra 2",
+                                                        "Color_Titulo": "#6610f2",
+                                                        "Color_Valor1": "#e83e8c",
+                                                        "Color_Valor2": "#17a2b8",
+                                                        "listaEtiquetas": [
+                                                            "Enero",
+                                                            "Febrero",
+                                                            "Marzo",
+                                                            "Abril",
+                                                            "Mayo"
+                                                        ],
+                                                        "listaDatosValor1": [
+                                                            3,
+                                                            6,
+                                                            5,
+                                                            6,
+                                                            3
+                                                        ],
+                                                        "listaDatosValor2": [
+                                                            3,
+                                                            7,
+                                                            3,
+                                                            8,
+                                                            6
+                                                        ],
+                                                        "Reducido": 1
+                                                    },
+                                                    {
+                                                        "Titulo": "Barra 3",
+                                                        "Color_Titulo": "#6610f2",
+                                                        "Color_Valor1": "#e83e8c",
+                                                        "Color_Valor2": "#17a2b8",
+                                                        "listaEtiquetas": [
+                                                            "Enero",
+                                                            "Febrero",
+                                                            "Marzo",
+                                                            "Abril"
+                                                        ],
+                                                        "listaDatosValor1": [
+                                                            4,
+                                                            7,
+                                                            6,
+                                                            7
+                                                        ],
+                                                        "listaDatosValor2": [
+                                                            3,
+                                                            8,
+                                                            4,
+                                                            9
+                                                        ],
+                                                        "Reducido": 0
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "tipo": "producto",
+                                                "posicion": 4,
+                                                "lista": [
+                                                    {
+                                                        "Titulo": "Cervezas Core 1",
+                                                        "Color_Titulo": "",
+                                                        "Icogra_Agrup1": "stella-artois.png",
+                                                        "Estado_Agrupador1": "0",
+                                                        "Titulo_Agrupador1": "11111",
+                                                        "Agrupador1_Descrip1": "Stella Artoris",
+                                                        "Agrupador1_Descrip2": "300x30",
+                                                        "Icogra_Agrup2": "stella-artois.png",
+                                                        "Estado_Agrupador2": "0",
+                                                        "Titulo_Agrupador2": "222222",
+                                                        "Agrupador2_Descrip1": "Stella Artoris",
+                                                        "Agrupador2_Descrip2": "300x30",
+                                                        "Icogra_Agrup3": "stella-artois.png",
+                                                        "Estado_Agrupador3": "0",
+                                                        "Titulo_Agrupador3": "333333",
+                                                        "Agrupador3_Descrip1": "Stella Artoris",
+                                                        "Agrupador3_Descrip2": "300x30",
+                                                        "Icogra_Agrup4": "stella-artois.png",
+                                                        "Estado_Agrupador4": "0",
+                                                        "Titulo_Agrupador4": "44444",
+                                                        "Agrupador4_Descrip1": "Stella Artoris",
+                                                        "Agrupador4_Descrip2": "300x30",
+                                                        "Icogra_Agrup5": "stella-artois.png",
+                                                        "Estado_Agrupador5": "0",
+                                                        "Titulo_Agrupador5": "55555",
+                                                        "Agrupador5_Descrip1": "Stella Artoris",
+                                                        "Agrupador5_Descrip2": "300x30",
+                                                        "Icogra_Agrup6": "stella-artois.png",
+                                                        "Estado_Agrupador6": "0",
+                                                        "Titulo_Agrupador6": "66666",
+                                                        "Agrupador6_Descrip1": "Stella Artoris",
+                                                        "Agrupador6_Descrip2": "300x30",
+                                                        "Color_TituloAgrupador": "#FF1654",
+                                                        "Color_Descripcion1": "#8EFF5E",
+                                                        "Color_Descripcion2": "#247BA0"
+                                                    },
+                                                    {
+                                                        "Titulo": "Cervezas Core 2",
+                                                        "Color_Titulo": "",
+                                                        "Icogra_Agrup1": "stella-artois.png",
+                                                        "Estado_Agrupador1": "0",
+                                                        "Titulo_Agrupador1": "aaaa",
+                                                        "Agrupador1_Descrip1": "Stella Artoris",
+                                                        "Agrupador1_Descrip2": "300x30",
+                                                        "Icogra_Agrup2": "stella-artois.png",
+                                                        "Estado_Agrupador2": "0",
+                                                        "Titulo_Agrupador2": "222222",
+                                                        "Agrupador2_Descrip1": "Stella Artoris",
+                                                        "Agrupador2_Descrip2": "300x30",
+                                                        "Icogra_Agrup3": "stella-artois.png",
+                                                        "Estado_Agrupador3": "0",
+                                                        "Titulo_Agrupador3": "333333",
+                                                        "Agrupador3_Descrip1": "Stella Artoris",
+                                                        "Agrupador3_Descrip2": "300x30",
+                                                        "Icogra_Agrup4": "stella-artois.png",
+                                                        "Estado_Agrupador4": "0",
+                                                        "Titulo_Agrupador4": "44444",
+                                                        "Agrupador4_Descrip1": "Stella Artoris",
+                                                        "Agrupador4_Descrip2": "300x30",
+                                                        "Icogra_Agrup5": "stella-artois.png",
+                                                        "Estado_Agrupador5": "0",
+                                                        "Titulo_Agrupador5": "55555",
+                                                        "Agrupador5_Descrip1": "Stella Artoris",
+                                                        "Agrupador5_Descrip2": "300x30",
+                                                        "Icogra_Agrup6": "stella-artois.png",
+                                                        "Estado_Agrupador6": "0",
+                                                        "Titulo_Agrupador6": "66666",
+                                                        "Agrupador6_Descrip1": "Stella Artoris",
+                                                        "Agrupador6_Descrip2": "300x30",
+                                                        "Color_TituloAgrupador": "#FF1654",
+                                                        "Color_Descripcion1": "#8EFF5E",
+                                                        "Color_Descripcion2": "#247BA0"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": 52,
+                                        "titulo": "Imagenes - Eventos",
+                                        "tipo": "bloque_2_0",
+                                        "expandido": true,
+                                        "listaWidgets": [
+                                            {
+                                                "tipo": "eventos",
+                                                "posicion": 1,
+                                                "lista": [
+                                                    {
+                                                        "Tipo": "Deportivo",
+                                                        "Descripcion": "<div style=\"\"text-align: center;\"\"><span style=\"\"background-color: #008000; color: #000080; font-family: 'arial black'; sans-serif; font-size: 18pt;\"\">Millonarios- Tolima</span></div>",
+                                                        "Imagen": "",
+                                                        "Ciudad": "Medellin",
+                                                        "Datos": {}
+                                                    },
+                                                    {
+                                                        "Tipo": "Cultural",
+                                                        "Descripcion": "<div style=\"\"text-align: center;\"\"><span style=\"\"font-family: impact; sans-serif; font-size: 24pt; background-color: #0000ff; color: #ffffff;\"\">Partido de Futbol</span></div><div style=\"\"text-align: center;\"\"><span style=\"\"font-family: impact; sans-serif; font-size: 24pt; background-color: #0000ff; color: #ffffff;\"\">Bogota - Medellín</span></div><div style=\"\"text-align: center;\"\"><span style=\"\"font-family: impact; sans-serif; font-size: 24pt; background-color: #0000ff; color: #ffffff;\"\">Estadio El campin</span></div><div style=\"\"text-align: center;\"\"><span style=\"\"font-family: impact; sans-serif; font-size: 24pt; background-color: #0000ff; color: #ffffff;\"\">Hora: 8:00p.m</span></div>",
+                                                        "Imagen": "",
+                                                        "Ciudad": "Medellin",
+                                                        "Datos": {}
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 59,
+                                "nombre": "Datos del cliente",
+                                "icono": "",
+                                "listabloques": [
+                                    {
+                                        "id": 54,
+                                        "titulo": "Datos del cliente",
+                                        "tipo": "bloque_invisible",
+                                        "expandido": true,
+                                        "listaWidgets": [
+                                            {
+                                                "tipo": "dato",
+                                                "posicion": 0,
+                                                "lista": [
+                                                    {
+                                                        "Tema_Descripcion": "CONTACTO TELEVENTAS 1",
+                                                        "Cod_Imagen": "",
+                                                        "listaItems": [
+                                                            {
+                                                                "Descripcion": "Contacto 1",
+                                                                "Color": "#FF1654",
+                                                                "Resaltado": "1",
+                                                                "Alineacion": "C",
+                                                                "Valor": "2.00-2.00"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 2",
+                                                                "Color": "#8EFF5E",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "C",
+                                                                "Valor": "TLV -ZCP1 -3368677826"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 3",
+                                                                "Color": "#70C1B3",
+                                                                "Resaltado": "1",
+                                                                "Alineacion": "C",
+                                                                "Valor": "TLV -ZCP1 -3368677827"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 4",
+                                                                "Color": "#9932C1",
+                                                                "Resaltado": "1",
+                                                                "Alineacion": "C",
+                                                                "Valor": "TLV -ZCP1 -3368677828"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 5",
+                                                                "Color": "#627869",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677829"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 6",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677830"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 7",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677831"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 8",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677832"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 9",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677833"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 10",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677834"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 11",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677835"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 12",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677836"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 13",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677837"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 14",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677838"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 15",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677839"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 16",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677840"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "Tema_Descripcion": "CONTACTO TELEVENTAS 2",
+                                                        "Cod_Imagen": "",
+                                                        "listaItems": [
+                                                            {
+                                                                "Descripcion": "Contacto 1",
+                                                                "Color": "#FF1654",
+                                                                "Resaltado": "1",
+                                                                "Alineacion": "C",
+                                                                "Valor": "2.00-2.00"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 2",
+                                                                "Color": "#8EFF5E",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "C",
+                                                                "Valor": "TLV -ZCP1 -3368677826"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 3",
+                                                                "Color": "#70C1B3",
+                                                                "Resaltado": "1",
+                                                                "Alineacion": "C",
+                                                                "Valor": "TLV -ZCP1 -3368677827"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 4",
+                                                                "Color": "#9932C1",
+                                                                "Resaltado": "1",
+                                                                "Alineacion": "C",
+                                                                "Valor": "TLV -ZCP1 -3368677828"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 5",
+                                                                "Color": "#627869",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677829"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 6",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677830"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 7",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677831"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 8",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677832"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 9",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677833"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 10",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677834"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 11",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677835"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 12",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677836"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 13",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677837"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 14",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677838"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 15",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677839"
+                                                            },
+                                                            {
+                                                                "Descripcion": "Contacto 16",
+                                                                "Color": "",
+                                                                "Resaltado": "0",
+                                                                "Alineacion": "",
+                                                                "Valor": "TLV -ZCP1 -3368677840"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 60,
+                                "nombre": "Agentes",
+                                "icono": "",
+                                "listabloques": [
+                                    {
+                                        "id": 55,
+                                        "titulo": "Indicadores del mes",
+                                        "tipo": "bloque_0_2",
+                                        "expandido": false,
+                                        "listaWidgets": [
+                                            {
+                                                "tipo": "indicadorcotlineas",
+                                                "posicion": 1,
+                                                "lista": [
+                                                    {
+                                                        "Titulo": "Corona 103 Hls",
+                                                        "Color_titulo": "#FF1654",
+                                                        "Valor_Enfasis": "79%",
+                                                        "Color_Valor_Enfasis": "#ff0000",
+                                                        "Descripcion1": "Marzo",
+                                                        "Color_descripcion1": "#247BA0",
+                                                        "Descripcion2": "12%",
+                                                        "Color_descripcion2": "#F47070",
+                                                        "Descripcion3": "Meta",
+                                                        "Color_descripcion3": "#5E004B",
+                                                        "Descripcion4": "500%",
+                                                        "Color_descripcion4": "#F47070",
+                                                        "Icogra_Izquierdo": "flecha_naranja_arriba.svg",
+                                                        "Icogra_Derecho": "stella-artois.png",
+                                                        "Nombre_Agrupador1": "Enero",
+                                                        "Agrupador1_Valor1": "10",
+                                                        "Nombre_Agrupador2": "Febrero",
+                                                        "Agrupador2_Valor1": "20",
+                                                        "Nombre_Agrupador3": "Marzo",
+                                                        "Agrupador3_Valor1": "30",
+                                                        "Nombre_Agrupador4": "Abril",
+                                                        "Agrupador4_Valor1": "40",
+                                                        "Nombre_Agrupador5": "Mayo",
+                                                        "Agrupador5_Valor1": "50",
+                                                        "Nombre_Agrupador6": "Junio",
+                                                        "Agrupador6_Valor1": "60",
+                                                        "Color_Valor1": "#5E004B",
+                                                        "Reducido": 1
+                                                    },
+                                                    {
+                                                        "Titulo": "Stella 103 Hls",
+                                                        "Color_titulo": "#FF1654",
+                                                        "Valor_Enfasis": "79%",
+                                                        "Color_Valor_Enfasis": "#ff0000",
+                                                        "Descripcion1": "Marzo",
+                                                        "Color_descripcion1": "#247BA0",
+                                                        "Descripcion2": "12%",
+                                                        "Color_descripcion2": "#F47070",
+                                                        "Descripcion3": "Meta",
+                                                        "Color_descripcion3": "#5E004B",
+                                                        "Descripcion4": "500%",
+                                                        "Color_descripcion4": "#F47070",
+                                                        "Icogra_Izquierdo": "flecha_verde_abajo.svg",
+                                                        "Icogra_Derecho": "stella-artois.png",
+                                                        "Nombre_Agrupador1": "Enero",
+                                                        "Agrupador1_Valor1": "10",
+                                                        "Nombre_Agrupador2": "Febrero",
+                                                        "Agrupador2_Valor1": "20",
+                                                        "Nombre_Agrupador3": "Marzo",
+                                                        "Agrupador3_Valor1": "30",
+                                                        "Nombre_Agrupador4": "Abril",
+                                                        "Agrupador4_Valor1": "40",
+                                                        "Nombre_Agrupador5": "Mayo",
+                                                        "Agrupador5_Valor1": "50",
+                                                        "Nombre_Agrupador6": "Junio",
+                                                        "Agrupador6_Valor1": "60",
+                                                        "Color_Valor1": "#5E004B",
+                                                        "Reducido": 1
+                                                    },
+                                                    {
+                                                        "Titulo": "Prueba 103 Hls",
+                                                        "Color_titulo": "#FF1654",
+                                                        "Valor_Enfasis": "79%",
+                                                        "Color_Valor_Enfasis": "#ff0000",
+                                                        "Descripcion1": "Marzo",
+                                                        "Color_descripcion1": "#247BA0",
+                                                        "Descripcion2": "12%",
+                                                        "Color_descripcion2": "#F47070",
+                                                        "Descripcion3": "Meta",
+                                                        "Color_descripcion3": "#5E004B",
+                                                        "Descripcion4": "500%",
+                                                        "Color_descripcion4": "#F47070",
+                                                        "Icogra_Izquierdo": "flecha_verde_arriba.svg",
+                                                        "Icogra_Derecho": "stella-artois.png",
+                                                        "Nombre_Agrupador1": "Enero",
+                                                        "Agrupador1_Valor1": "10",
+                                                        "Nombre_Agrupador2": "Febrero",
+                                                        "Agrupador2_Valor1": "20",
+                                                        "Nombre_Agrupador3": "Marzo",
+                                                        "Agrupador3_Valor1": "30",
+                                                        "Nombre_Agrupador4": "Abril",
+                                                        "Agrupador4_Valor1": "40",
+                                                        "Nombre_Agrupador5": "Mayo",
+                                                        "Agrupador5_Valor1": "50",
+                                                        "Nombre_Agrupador6": "Junio",
+                                                        "Agrupador6_Valor1": "60",
+                                                        "Color_Valor1": "#5E004B",
+                                                        "Reducido": 1
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": 56,
+                                        "titulo": "Indicadores del agente",
+                                        "tipo": "bloque",
+                                        "expandido": true,
+                                        "listaWidgets": [
+                                            {
+                                                "tipo": "indicadorcot",
+                                                "posicion": 0,
+                                                "lista": [
+                                                    {
+                                                        "Titulo": "Corona 103 Hls",
+                                                        "Color_titulo": "#5E004B",
+                                                        "Valor_Enfasis": "79%",
+                                                        "Color_Valor_Enfasis": "#ff0000",
+                                                        "Descripcion1": "Marzo",
+                                                        "Color_descripcion1": "#5E004B",
+                                                        "Descripcion2": "12%",
+                                                        "Color_descripcion2": "#5E004B",
+                                                        "Descripcion3": "Meta",
+                                                        "Color_descripcion3": "#5E004B",
+                                                        "Descripcion4": "Bien",
+                                                        "Color_descripcion4": "#8EFF5E",
+                                                        "Icogra_Izquierdo": "flecha_roja_arriba.svg",
+                                                        "Icogra_Derecho": "stella-artois.png",
+                                                        "Reducido": 1
+                                                    },
+                                                    {
+                                                        "Titulo": "Prueba1 103 Hls",
+                                                        "Color_titulo": "#5E004B",
+                                                        "Valor_Enfasis": "79%",
+                                                        "Color_Valor_Enfasis": "#ff0000",
+                                                        "Descripcion1": "Marzo",
+                                                        "Color_descripcion1": "#5E004B",
+                                                        "Descripcion2": "12%",
+                                                        "Color_descripcion2": "#5E004B",
+                                                        "Descripcion3": "Meta",
+                                                        "Color_descripcion3": "#5E004B",
+                                                        "Descripcion4": "Bien",
+                                                        "Color_descripcion4": "#8EFF5E",
+                                                        "Icogra_Izquierdo": "flecha_roja_arriba.svg",
+                                                        "Icogra_Derecho": "stella-artois.png",
+                                                        "Reducido": 1
+                                                    },
+                                                    {
+                                                        "Titulo": "Prueba2 103 Hls",
+                                                        "Color_titulo": "#5E004B",
+                                                        "Valor_Enfasis": "79%",
+                                                        "Color_Valor_Enfasis": "#ff0000",
+                                                        "Descripcion1": "Marzo",
+                                                        "Color_descripcion1": "#5E004B",
+                                                        "Descripcion2": "12%",
+                                                        "Color_descripcion2": "#5E004B",
+                                                        "Descripcion3": "Meta",
+                                                        "Color_descripcion3": "#5E004B",
+                                                        "Descripcion4": "Bien",
+                                                        "Color_descripcion4": "#8EFF5E",
+                                                        "Icogra_Izquierdo": "flecha_roja_arriba.svg",
+                                                        "Icogra_Derecho": "stella-artois.png",
+                                                        "Reducido": 0
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 61,
+                                "nombre": "Datos Básicos",
+                                "icono": "",
+                                "listabloques": [
+                                    {
+                                        "id": 57,
+                                        "titulo": "Indicadores del cliente",
+                                        "tipo": "bloque_sencillo",
+                                        "expandido": true,
+                                        "listaWidgets": [
+                                            {
+                                                "tipo": "dona",
+                                                "posicion": 0,
+                                                "lista": [
+                                                    {
+                                                        "Titulo": "DN TRIMARCA",
+                                                        "Color_titulo": "#5E004B",
+                                                        "Valor_Enfasis": 80,
+                                                        "Color_Valor_Enfasis": "#ff0000",
+                                                        "Descripcion1": "Meta:",
+                                                        "Color_descripcion1": "#5E004B",
+                                                        "Descripcion2": "1200Htl",
+                                                        "Color_descripcion2": "#5E004B",
+                                                        "Descripcion3": "Real",
+                                                        "Color_descripcion3": "#5E004B",
+                                                        "Descripcion4": "980 Htl",
+                                                        "Color_descripcion4": "#5E004B",
+                                                        "IconoGrafica": "",
+                                                        "Color_MayorDona": "#8EFF5E",
+                                                        "Color_MenorDona": "#F47070",
+                                                        "Reducido": 1,
+                                                        "Tipo_de_Dona": "doughnut"
+                                                    },
+                                                    {
+                                                        "Titulo": "DN3 TRIMARCA",
+                                                        "Color_titulo": "#5E004B",
+                                                        "Valor_Enfasis": 89,
+                                                        "Color_Valor_Enfasis": "#ff0000",
+                                                        "Descripcion1": "Meta:",
+                                                        "Color_descripcion1": "#5E004B",
+                                                        "Descripcion2": "1200Htl",
+                                                        "Color_descripcion2": "#5E004B",
+                                                        "Descripcion3": "Real",
+                                                        "Color_descripcion3": "#5E004B",
+                                                        "Descripcion4": "980 Htl",
+                                                        "Color_descripcion4": "#5E004B",
+                                                        "IconoGrafica": "",
+                                                        "Color_MayorDona": "#8EFF5E",
+                                                        "Color_MenorDona": "#F47070",
+                                                        "Reducido": 1,
+                                                        "Tipo_de_Dona": "doughnut"
+                                                    },
+                                                    {
+                                                        "Titulo": "DN2 TRIMARCA",
+                                                        "Color_titulo": "#5E004B",
+                                                        "Valor_Enfasis": 1,
+                                                        "Color_Valor_Enfasis": "#ff0000",
+                                                        "Descripcion1": "Meta:",
+                                                        "Color_descripcion1": "#5E004B",
+                                                        "Descripcion2": "1200Htl",
+                                                        "Color_descripcion2": "#5E004B",
+                                                        "Descripcion3": "Real",
+                                                        "Color_descripcion3": "#5E004B",
+                                                        "Descripcion4": "980 Htl",
+                                                        "Color_descripcion4": "#5E004B",
+                                                        "IconoGrafica": "",
+                                                        "Color_MayorDona": "#8EFF5E",
+                                                        "Color_MenorDona": "#F47070",
+                                                        "Reducido": 1,
+                                                        "Tipo_de_Dona": "pie"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "tipo": "lineas",
+                                                "posicion": 0,
+                                                "lista": [
+                                                    {
+                                                        "Titulo": "Cervezas Core",
+                                                        "Color_Titulo": "#001D77",
+                                                        "Nombre_Agrupador1": "Enero",
+                                                        "Agrupador1_Valor1": "10",
+                                                        "Nombre_Agrupador2": "Febrero",
+                                                        "Agrupador2_Valor1": "20",
+                                                        "Nombre_Agrupador3": "Marzo",
+                                                        "Agrupador3_Valor1": "30",
+                                                        "Nombre_Agrupador4": "Abril",
+                                                        "Agrupador4_Valor1": "40",
+                                                        "Nombre_Agrupador5": "Mayo",
+                                                        "Agrupador5_Valor1": "50",
+                                                        "Nombre_Agrupador6": "Junio",
+                                                        "Agrupador6_Valor1": "60",
+                                                        "Color_Valor1": "#001D77",
+                                                        "Reducido": 1
+                                                    },
+                                                    {
+                                                        "Titulo": "Cervezas Core",
+                                                        "Color_Titulo": "#001D77",
+                                                        "Nombre_Agrupador1": "Enero",
+                                                        "Agrupador1_Valor1": "12",
+                                                        "Nombre_Agrupador2": "Febrero",
+                                                        "Agrupador2_Valor1": "50",
+                                                        "Nombre_Agrupador3": "Marzo",
+                                                        "Agrupador3_Valor1": "0",
+                                                        "Nombre_Agrupador4": "Abril",
+                                                        "Agrupador4_Valor1": "210",
+                                                        "Nombre_Agrupador5": "Mayo",
+                                                        "Agrupador5_Valor1": "51",
+                                                        "Nombre_Agrupador6": "Junio",
+                                                        "Agrupador6_Valor1": "60",
+                                                        "Color_Valor1": "#001D77",
+                                                        "Reducido": 1
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

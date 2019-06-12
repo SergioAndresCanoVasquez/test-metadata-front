@@ -1,6 +1,6 @@
-<div class="row">
-  <div class="col mb-3" *ngFor="let widget of widgets; let i = index">
-    <div class="card w-100">
+<div class="row justify-content-center">
+  <div class="col-auto" *ngFor="let widget of widgets; let i = index">
+    <div class="card">
       <p class="m-1 titulo font-weight-bold">{{widget.Titulo}}</p>
       <div class="card-body p-0">
         <div class="row align-items-end m-0 p-0 h-100 w-100">
@@ -19,30 +19,6 @@
         </div>
       </div>
     </div>
+    <br>
   </div>
 </div>
-
-
-<!-- <div class="row" >
-    <div class="col mb-3" *ngFor="let widget of widgets; let i = index">
-      <div class="card">
-        <div class="card-body pb-5">
-          <p class="card-title">{{widget.Titulo}}</p>
-          <div class="podio h-100 d-flex">
-            <div class="third-place m-1 p-1" [class.active]="widget.Columna_Resaltada == 3">
-              <div class="cuantity-third-place">{{widget.Valor3}}</div>
-              <div class="font-weight-bold text-center">{{widget.Etiqueta3}}</div>
-            </div>
-            <div class="first-place m-1 p-1" [class.active]="widget.Columna_Resaltada == 1">
-              <div class="cuantity-first-place">{{widget.Valor1}}</div>
-              <div class="font-weight-bold text-center">{{widget.Etiqueta1}}</div>
-            </div>
-            <div class="second-place m-1 p-1" [class.active]="widget.Columna_Resaltada == 2">
-              <div class="cuantity-second-place">{{widget.Valor2}}</div>
-              <div class="font-weight-bold text-center">{{widget.Etiqueta2}}</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
