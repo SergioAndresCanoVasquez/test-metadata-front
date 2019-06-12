@@ -1,14 +1,14 @@
-<div class="row justify-content-md-start">
-    <div class="col-auto" *ngFor="let widget of widgets; let i = index">
+<div class="row justify-content-start">
+  <div class="col-lg-6 col-md-12 col-sm-12" *ngFor="let widget of widgets; let i = index">
     <div class="card">
-      <div class="card-body p-2">
+      <div class="card-body p-1">
         <div class="row">
           <div class="col">
-            <p class="m-0 font-weight-bold" [ngStyle]="{'color': widget.Color_Titulo}">{{widget.Titulo}}</p>
+            <p class="m-2 font-weight-bold" [ngStyle]="{'color': widget.Color_Titulo}">{{widget.Titulo}}</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-4 m-0 p-1">
+        <div class="row d-flex">
+          <div class="col-lg-4 col-md-6 col-sm-10 m-0 p-1">
             <div class="row">
               <div class="col-4 p-1">
                 <img [src]="widget.Icogra_Agrup1" alt="imagen producto" [class.desactive]='widget.Estado_Agrupador1'>
@@ -21,7 +21,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4 m-0 p-1">
+          <div class="col-lg-4 col-md-6 col-sm-10 m-0 p-1">
             <div class="row">
               <div class="col-4 p-1">
                 <img [src]="widget.Icogra_Agrup1" alt="imagen producto" [class.desactive]='widget.Estado_Agrupador2'>
@@ -34,7 +34,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4 m-0 p-1">
+          <div class="col-lg-4 col-md-6 col-sm-10 m-0 p-1">
             <div class="row">
               <div class="col-4 p-1">
                 <img [src]="widget.Icogra_Agrup1" alt="imagen producto" [class.desactive]='widget.Estado_Agrupador3'>
@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-4 m-0 p-1">
+            <div class="col-lg-4 col-md-6 col-sm-10 m-0 p-1">
             <div class="row">
               <div class="col-4 p-1">
                 <img [src]="widget.Icogra_Agrup1" alt="imagen producto" [class.desactive]='widget.Estado_Agrupador4'>
@@ -62,7 +62,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4 m-0 p-1">
+          <div class="col-lg-4 col-md-6 col-sm-10 m-0 p-1">
             <div class="row">
               <div class="col-4 p-1">
                 <img [src]="widget.Icogra_Agrup1" alt="imagen producto" [class.desactive]='widget.Estado_Agrupador5'>
@@ -75,7 +75,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4 m-0 p-1">
+          <div class="col-lg-4 col-md-6 col-sm-10 m-0 p-1">
             <div class="row">
               <div class="col-4 p-1">
                 <img [src]="widget.Icogra_Agrup1" alt="imagen producto" [class.desactive]='widget.Estado_Agrupador6'>
