@@ -6,7 +6,8 @@ export const environment = {
   production: false,
   host: "https://tpmetadataback.azurewebsites.net",
   port: "80",
-  api : '/api/MetaData'
+  api : '/api/MetaData',
+  imagenes: 'https://tpmetadata.azurewebsites.net/imagenes/'
 };
 
 
