@@ -1,5 +1,5 @@
-<div class="row">
-  <div class="col-lg-3 col-md-6 col-sm-12" *ngFor="let widget of widgets; let i = index">
+<div class="row align-content-center">
+  <div class="col" *ngFor="let widget of widgets; let i = index">
     <div class="card">
       <div class="card-body p-2">
         <div class="row">
@@ -7,14 +7,22 @@
             <p class="m-0" [ngStyle]="{'color': widget.Color_titulo}">{{widget.Titulo}}</p>
           </div>
         </div>
-        <div class="row">
+        <div class="row align-items-end">
           <div class="col-6">
-            <h1 [ngStyle]="{'color': widget.Color_Valor_Enfasis}">{{widget.Valor_Enfasis}}</h1>
+            <div class="row">
+              <div class="col">
+                  <h1 class="m-0" [ngStyle]="{'color': widget.Color_Valor_Enfasis}">{{widget.Valor_Enfasis}}</h1>
+              </div>
+            </div>
           </div>
           <div class="col-6">
-            <p class="m-1" [ngStyle]="{'color': widget.Color_descripcion_1}">{{widget.Descripcion_1}}</p>
-            <p class="m-1" [ngStyle]="{'color': widget.Color_descripcion_2}">{{widget.Descripcion_2}}</p>
-            <p class="m-1" [ngStyle]="{'color': widget.Color_descripcion_3}">{{widget.Descripcion_3}}</p>
+            <div class="row">
+              <div class="col">
+                  <p class="m-1" [ngStyle]="{'color': widget.Color_descripcion_1}">{{widget.Descripcion_1}}</p>
+                  <p class="m-1" [ngStyle]="{'color': widget.Color_descripcion_2}">{{widget.Descripcion_2}}</p>
+                  <p class="m-1" [ngStyle]="{'color': widget.Color_descripcion_3}">{{widget.Descripcion_3}}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

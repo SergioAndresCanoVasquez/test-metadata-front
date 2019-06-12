@@ -1,123 +1,121 @@
-<div class="container-fluid m-0 p-0 animated fadeIn">
-
-  <div class="row" *ngIf="bloque.tipo === 'bloque_1_3'">
-    <div class="col">
-      <div class="card">
-        <div class="card-header pt-1 pb-1">
-          <div class="row p-0">
-            <div class="col text-left">
-              {{bloque.titulo}}
-            </div>
-            <div class="col text-right">
-              <a class="animated fadeIn" *ngIf="!bloque.expandido" (click)="expandirBloque()"><i class="fa fa-chevron-down"></i></a>
-              <a class="animated fadeIn" *ngIf="bloque.expandido" (click)="expandirBloque()"><i class="fa fa-chevron-up"></i></a>
-            </div>
+<div class="row animated fadeIn" *ngIf="bloque.tipo === 'bloque_1_3'">
+  <div class="col">
+    <div class="card">
+      <div class="card-header pt-1 pb-1">
+        <div class="row p-0">
+          <div class="col text-left">
+            {{bloque.titulo}}
+          </div>
+          <div class="col text-right">
+            <a class="animated fadeIn" *ngIf="!bloque.expandido" (click)="expandirBloque()"><i
+                class="fa fa-chevron-down"></i></a>
+            <a class="animated fadeIn" *ngIf="bloque.expandido" (click)="expandirBloque()"><i
+                class="fa fa-chevron-up"></i></a>
           </div>
         </div>
-        <div class="card-body">
-          <div class="row animated fadeIn" [ngClass]="{'d-none': bloque.expandido}">
-            <div class="col">
-              <app-constructor-widget [tipoWidget]="widgetsPosicion2"></app-constructor-widget>
-            </div>
+      </div>
+      <div class="card-body">
+        <div class="row" [ngClass]="{'d-none': bloque.expandido}">
+          <div class="col">
+            <app-constructor-widget [tipoWidget]="widgetsPosicion1"></app-constructor-widget>
           </div>
-          <div class="row justify-content-md-center animated fadeIn" [ngClass]="{'d-none': !bloque.expandido}">
-            <div class="col-2 m-0 pr-4 pl-0 border-right">
-              <app-constructor-widget [tipoWidget]="widgetsPosicion1"></app-constructor-widget>
-            </div>
-            <div class="col-10 m-0">
-              <div class="row">
-                <div class="col border-bottom pt-2">
-                  <app-constructor-widget [tipoWidget]="widgetsPosicion2"></app-constructor-widget>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col border-bottom pt-2">
-                  <app-constructor-widget [tipoWidget]="widgetsPosicion3"></app-constructor-widget>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col pt-2">
-                  <app-constructor-widget [tipoWidget]="widgetsPosicion4"></app-constructor-widget>
-                </div>
+        </div>
+        <div class="row" [ngClass]="{'d-none': !bloque.expandido}">
+          <div class="col-2 pt-3 border-right">
+            <app-constructor-widget [tipoWidget]="widgetsPosicion1"></app-constructor-widget>
+          </div>
+          <div class="col-10">
+            <div class="row">
+              <div class="col pt-3 border-bottom">
+                <app-constructor-widget [tipoWidget]="widgetsPosicion2"></app-constructor-widget>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <br>
-    </div>
-  </div>
-
-  <div class="row" *ngIf="bloque.tipo === 'bloque_2_0'">
-    <div class="col">
-      <div class="card">
-        <div class="card-header">
-          <div class="row">
-            <div class="col text-left">
-              {{bloque.titulo}}
+            <div class="row">
+              <div class="col pt-3 border-bottom">
+                <app-constructor-widget [tipoWidget]="widgetsPosicion3"></app-constructor-widget>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-6" *ngFor="let widget of widgets">
-              <app-constructor-widget [tipoWidget]="widget"></app-constructor-widget>
+            <div class="row">
+              <div class="col pt-3">
+                <app-constructor-widget [tipoWidget]="widgetsPosicion4"></app-constructor-widget>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <br>
     </div>
+    <br>
   </div>
+</div>
 
-  <div class="row" *ngIf="bloque.tipo === 'bloque_0_2'">
-    <div class="col">
-      <div class="card">
-        <div class="card-header">
-          <div class="row">
-            <div class="col text-left">
-              {{bloque.titulo}}
-            </div>
-          </div>
-        </div>
-        <div class="card-body">
-          <div class="row">
-            <div class="col" *ngFor="let widget of widgets">
-              <app-constructor-widget [tipoWidget]="widget"></app-constructor-widget>
-            </div>
+<div class="row" *ngIf="bloque.tipo === 'bloque_2_0'">
+  <div class="col">
+    <div class="card">
+      <div class="card-header">
+        <div class="row">
+          <div class="col text-left">
+            {{bloque.titulo}}
           </div>
         </div>
       </div>
-      <br>
-    </div>
-  </div>
-
-  <div class="row" *ngIf="bloque.tipo === 'bloque_sencillo'">
-    <div class="col">
-      <div class="card">
-        <div class="card-header">
-          <div class="row">
-            <div class="col text-left">
-              {{bloque.titulo}}
-            </div>
-          </div>
-        </div>
-        <div class="card-body">
-          <div class="row">
-            <div class="col" *ngFor="let widget of widgets">
-              <app-constructor-widget [tipoWidget]="widget"></app-constructor-widget>
-            </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-6" *ngFor="let widget of widgets">
+            <app-constructor-widget [tipoWidget]="widget"></app-constructor-widget>
           </div>
         </div>
       </div>
-      <br>
     </div>
+    <br>
   </div>
+</div>
 
-  <div class="row" *ngIf="bloque.tipo === 'bloque_invisible'">
-    <div class="col" *ngFor="let widget of widgets">
-      <app-constructor-widget [tipoWidget]="widget"></app-constructor-widget>
+<div class="row" *ngIf="bloque.tipo === 'bloque_0_2'">
+  <div class="col">
+    <div class="card">
+      <div class="card-header">
+        <div class="row">
+          <div class="col text-left">
+            {{bloque.titulo}}
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col" *ngFor="let widget of widgets">
+            <app-constructor-widget [tipoWidget]="widget"></app-constructor-widget>
+          </div>
+        </div>
+      </div>
     </div>
+    <br>
   </div>
+</div>
 
+<div class="row" *ngIf="bloque.tipo === 'bloque_sencillo'">
+  <div class="col">
+    <div class="card">
+      <div class="card-header">
+        <div class="row">
+          <div class="col text-left">
+            {{bloque.titulo}}
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col" *ngFor="let widget of widgets">
+            <app-constructor-widget [tipoWidget]="widget"></app-constructor-widget>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+</div>
+
+<div class="row" *ngIf="bloque.tipo === 'bloque_invisible'">
+  <div class="col" *ngFor="let widget of widgets">
+    <app-constructor-widget [tipoWidget]="widget"></app-constructor-widget>
+  </div>
 </div>

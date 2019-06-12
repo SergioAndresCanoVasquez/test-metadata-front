@@ -1,67 +1,26 @@
-<div class="container-fluid m-0 p-1 animated fadeIn">
+<!-- Constructor para el widget tipo meta -->
+<app-widget-meta *ngIf="tipoWidget.tipo === 'meta'" [widgets]="listaWidgets"></app-widget-meta>
 
-  <!-- Constructor para el widget tipo meta -->
-  <div class="row" *ngIf="tipoWidget.tipo === 'meta'">
-    <div class="col">
-      <app-widget-meta [widgets]="listaWidgets"></app-widget-meta>
-    </div>
-  </div>
+<!-- Constructor para el widget tipo podio -->
+<app-widget-podio *ngIf="tipoWidget.tipo === 'podio'" [widgets]="listaWidgets"></app-widget-podio>
 
-  <!-- Constructor para el widget tipo podio -->
-  <div class="row" *ngIf="tipoWidget.tipo === 'podio'">
-    <div class="col">
-      <app-widget-podio [widgets]="listaWidgets"></app-widget-podio>
-    </div>
-  </div>
+<!-- Constructor para el widget tipo barra -->
+<app-widget-barra *ngIf="tipoWidget.tipo === 'barra'" [widgets]="listaWidgets"></app-widget-barra>
 
-  <!-- Constructor para el widget tipo barra -->
-  <div class="row" *ngIf="tipoWidget.tipo === 'barra'">
-    <div class="col">
-      <app-widget-barra [widgets]="listaWidgets"></app-widget-barra>
-    </div>
-  </div>
+<!-- Constructor para el widget tipo producto -->
+<app-widget-producto *ngIf="tipoWidget.tipo === 'producto'" [widgets]="listaWidgets"></app-widget-producto>
 
-  <!-- Constructor para el widget tipo producto -->
-  <div class="row" *ngIf="tipoWidget.tipo === 'producto'">
-    <div class="col">
-      <app-widget-producto [widgets]="listaWidgets"></app-widget-producto>
-    </div>
-  </div>
+<!-- Constructor para el widget tipo datos cliente -->
+<app-widget-dato *ngIf="tipoWidget.tipo === 'dato'" [widgets]="listaWidgets"></app-widget-dato>
 
-  <!-- Constructor para el widget tipo datos cliente -->
-  <div class="row" *ngIf="tipoWidget.tipo === 'dato'">
-    <div class="col">
-      <app-widget-dato [widgets]="listaWidgets"></app-widget-dato>
-    </div>
-  </div>
+<!-- Constructor para el widget tipo donas lineas -->
+<app-widget-dona-linea *ngIf="tipoWidget.tipo === 'donaslineas'" [widgets]="listaWidgets"></app-widget-dona-linea>
 
-  <!-- Constructor para el widget tipo donas lineas -->
-  <div class="row" *ngIf="tipoWidget.tipo === 'donaslineas'">
-    <div class="col">
-      <app-widget-dona-linea [widgets]="listaWidgets"></app-widget-dona-linea>
-    </div>
-  </div>
+<!-- Constructor para el widget tipo indicador cot lineas -->
+<app-widget-cot-linea *ngIf="tipoWidget.tipo === 'indicadorcotlineas'" [widgets]="listaWidgets"></app-widget-cot-linea>
 
-  <!-- Constructor para el widget tipo indicador cot lineas -->
-  <div class="row" *ngIf="tipoWidget.tipo === 'indicadorcotlineas'">
-    <div class="col">
-      <app-widget-cot-linea [widgets]="listaWidgets"></app-widget-cot-linea>
-    </div>
-  </div>
+<!-- Constructor para el widget tipo indicador cot lineas -->
+<app-widget-cot *ngIf="tipoWidget.tipo === 'indicadorcot'" [widgets]="listaWidgets"></app-widget-cot>
 
-  <!-- Constructor para el widget tipo indicador cot lineas -->
-  <div class="row" *ngIf="tipoWidget.tipo === 'indicadorcot'">
-    <div class="col">
-      <app-widget-cot [widgets]="listaWidgets"></app-widget-cot>
-    </div>
-  </div>
-
-
-  <!-- Constructor para el widget tipo imagen -->
-  <div class="row" *ngIf="tipoWidget.tipo === 'imagen'">
-      <div class="col">
-        <app-widget-imagen [widgets]="listaWidgets"></app-widget-imagen>
-      </div>
-    </div>
-
-</div>
+<!-- Constructor para el widget tipo imagen -->
+<app-widget-imagen *ngIf="tipoWidget.tipo === 'imagen'" [widgets]="listaWidgets"></app-widget-imagen>
